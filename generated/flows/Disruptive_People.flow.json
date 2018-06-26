@@ -7,7 +7,7 @@
       "id": "8fb5e0ecbb",
       "name": "entry",
       "onEnter": [
-        "say #!builtin_text-2Cj1Xd"
+        "say #!builtin_text-hMyyjX"
       ],
       "onReceive": [
         "setUserVariable {\"name\":\"a_role\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
