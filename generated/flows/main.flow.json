@@ -12,55 +12,6 @@
   "startNode": "entry",
   "nodes": [
     {
-      "id": "bda0320009",
-      "name": "welcome",
-      "onEnter": [
-        "say #!builtin_text-pSsHWg",
-        "getTotalNumberOfConversations {}"
-      ],
-      "onReceive": null,
-      "next": [
-        {
-          "condition": "state.$r === 0",
-          "node": "first-time"
-        },
-        {
-          "condition": "state.$r > 0",
-          "node": "many-times"
-        }
-      ]
-    },
-    {
-      "id": "7099199f90",
-      "name": "first-time",
-      "next": [],
-      "onEnter": [
-        "say #!builtin_text-AY5SSW",
-        "say #!builtin_text-X069Le"
-      ],
-      "onReceive": null
-    },
-    {
-      "id": "c69ee2d71f",
-      "name": "many-times",
-      "next": [],
-      "onEnter": [
-        "say #!builtin_text-bFsOmf"
-      ],
-      "onReceive": null
-    },
-    {
-      "id": "4f50a2e9fd",
-      "name": "forget-my-name",
-      "next": [],
-      "onEnter": [
-        "say #!builtin_text-TtzrCV",
-        "resetUserVariable {\"name\":\"nickname\"}",
-        "say #!builtin_text-kKQ8C3"
-      ],
-      "onReceive": null
-    },
-    {
       "id": "a54a82eb7c",
       "name": "entry",
       "onEnter": [
@@ -96,10 +47,42 @@
       ]
     },
     {
-      "id": "5e35763043",
-      "name": "yahooo",
-      "next": [],
-      "onEnter": [],
+      "id": "bda0320009",
+      "name": "welcome",
+      "onEnter": [
+        "say #!builtin_text-pSsHWg"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_flow\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_flow\",\"output\":\"$flow\"}"
+      ],
+      "next": [
+        {
+          "condition": "state.$flow == \"1\"",
+          "node": "Facilitation.flow.json"
+        },
+        {
+          "condition": "state.$flow == \"2\"",
+          "node": "Disruptive_People.flow.json"
+        },
+        {
+          "condition": "otherwise",
+          "node": "incorrect_input"
+        }
+      ]
+    },
+    {
+      "id": "1c2b819935",
+      "name": "incorrect_input",
+      "next": [
+        {
+          "condition": "always",
+          "node": "welcome"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-goq_NY"
+      ],
       "onReceive": null
     }
   ]
