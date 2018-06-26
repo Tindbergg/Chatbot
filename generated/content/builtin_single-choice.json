@@ -1,0 +1,21 @@
+[
+  {
+    "id": "builtin_single-choice-qGM7An",
+    "formData": {
+      "text": "Have you got any questions about the program?",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "true"
+        },
+        {
+          "title": "No",
+          "value": "false"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-24T13:29:59.327Z"
+  }
+]

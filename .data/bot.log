@@ -1,0 +1,78 @@
+{"level":"info","message":"Creating data directory: C:\\Users\\swe42\\chatbot\\.data","timestamp":"2018-06-25T10:53:47.996Z"}
+{"level":"info","message":"Starting botpress version 10.20.1","timestamp":"2018-06-25T10:53:48.011Z"}
+{"level":"info","message":"[Ghost Content Manager] (transparent) Initialized","timestamp":"2018-06-25T10:53:49.373Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\media, doing nothing.","timestamp":"2018-06-25T10:53:49.392Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\flows, doing nothing.","timestamp":"2018-06-25T10:53:49.405Z"}
+{"level":"info","message":"[Skills] Initiated","timestamp":"2018-06-25T10:53:49.409Z"}
+{"level":"info","message":"Loaded @botpress/audience, version 10.20.1","timestamp":"2018-06-25T10:53:49.441Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\intents, doing nothing.","timestamp":"2018-06-25T10:53:51.388Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\entities, doing nothing.","timestamp":"2018-06-25T10:53:51.390Z"}
+{"level":"info","message":"Loaded @botpress/nlu, version 10.20.1","timestamp":"2018-06-25T10:53:51.393Z"}
+{"level":"info","message":"Configuration for module \"@botpress/skill-choice\" has been created at C:\\Users\\swe42\\chatbot\\config\\skill-choice.json","timestamp":"2018-06-25T10:53:51.416Z"}
+{"level":"info","message":"Loaded @botpress/skill-choice, version 10.20.1","timestamp":"2018-06-25T10:53:51.424Z"}
+{"level":"info","message":"Loaded @botpress/hitl, version 10.20.1","timestamp":"2018-06-25T10:53:51.453Z"}
+{"level":"verbose","message":"[Renderers] Enabled for webchat.","timestamp":"2018-06-25T10:53:52.422Z"}
+{"level":"info","message":"Loaded @botpress/channel-web, version 10.20.1","timestamp":"2018-06-25T10:53:52.425Z"}
+{"level":"info","message":"Loaded 5 modules","timestamp":"2018-06-25T10:53:52.427Z"}
+{"level":"info","message":"[Skills] Loaded 1 skills","timestamp":"2018-06-25T10:53:52.435Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\content, doing nothing.","timestamp":"2018-06-25T10:53:52.438Z"}
+{"level":"debug","message":"Loading middleware: rendering.instrumentation","timestamp":"2018-06-25T10:53:52.517Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureInMessages","timestamp":"2018-06-25T10:53:52.519Z"}
+{"level":"debug","message":"Loading middleware: nlu.incoming","timestamp":"2018-06-25T10:53:52.520Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-06-25T10:53:52.523Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureOutMessages","timestamp":"2018-06-25T10:53:52.532Z"}
+{"level":"debug","message":"Loading middleware: webchat.sendMessages","timestamp":"2018-06-25T10:53:52.534Z"}
+{"level":"debug","message":"Loading middleware: fallback","timestamp":"2018-06-25T10:53:52.535Z"}
+{"level":"debug","message":"Loading data for builtin_text from builtin_text.json","timestamp":"2018-06-25T10:53:52.637Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-06-25T10:53:52.684Z"}
+{"level":"info","message":"Read 7 item(s) from builtin_text.json","timestamp":"2018-06-25T10:53:52.690Z"}
+{"level":"debug","message":"Loading data for builtin_image from builtin_image.json","timestamp":"2018-06-25T10:53:52.720Z"}
+{"level":"debug","message":"Loading data for builtin_single-choice from builtin_single-choice.json","timestamp":"2018-06-25T10:53:52.726Z"}
+{"level":"debug","message":"Loading data for builtin_card from builtin_card.json","timestamp":"2018-06-25T10:53:52.735Z"}
+{"level":"debug","message":"Loading data for builtin_action-button from builtin_action-button.json","timestamp":"2018-06-25T10:53:52.739Z"}
+{"level":"debug","message":"Loading data for builtin_carousel from builtin_carousel.json","timestamp":"2018-06-25T10:53:52.740Z"}
+{"level":"debug","message":"Loading data for builtin_raw from builtin_raw.json","timestamp":"2018-06-25T10:53:52.748Z"}
+{"level":"debug","message":"[NLU::Native] The model needs to be updated","timestamp":"2018-06-25T10:53:54.034Z"}
+{"level":"debug","message":"[NLU::Native] Started training model from 21 samples","timestamp":"2018-06-25T10:53:54.038Z"}
+{"level":"info","message":"[NLU::Native] Synced model","timestamp":"2018-06-25T10:53:54.085Z"}
+{"level":"info","message":"------------","timestamp":"2018-06-25T10:53:54.087Z"}
+{"level":"info","message":"Webchat available at http://localhost:3000/s/chat","timestamp":"2018-06-25T10:53:54.091Z"}
+{"level":"info","message":"------------","timestamp":"2018-06-25T10:53:54.098Z"}
+{"level":"info","message":"Starting botpress version 10.20.1","timestamp":"2018-06-25T10:58:10.920Z"}
+{"level":"info","message":"[Ghost Content Manager] (transparent) Initialized","timestamp":"2018-06-25T10:58:11.468Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\media, doing nothing.","timestamp":"2018-06-25T10:58:11.482Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\flows, doing nothing.","timestamp":"2018-06-25T10:58:11.488Z"}
+{"level":"info","message":"[Skills] Initiated","timestamp":"2018-06-25T10:58:11.490Z"}
+{"level":"info","message":"Loaded @botpress/audience, version 10.20.1","timestamp":"2018-06-25T10:58:11.504Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\intents, doing nothing.","timestamp":"2018-06-25T10:58:13.165Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\entities, doing nothing.","timestamp":"2018-06-25T10:58:13.176Z"}
+{"level":"info","message":"Loaded @botpress/nlu, version 10.20.1","timestamp":"2018-06-25T10:58:13.178Z"}
+{"level":"info","message":"Loaded @botpress/skill-choice, version 10.20.1","timestamp":"2018-06-25T10:58:13.207Z"}
+{"level":"info","message":"Loaded @botpress/hitl, version 10.20.1","timestamp":"2018-06-25T10:58:13.226Z"}
+{"level":"verbose","message":"[Renderers] Enabled for webchat.","timestamp":"2018-06-25T10:58:14.373Z"}
+{"level":"info","message":"Loaded @botpress/channel-web, version 10.20.1","timestamp":"2018-06-25T10:58:14.374Z"}
+{"level":"info","message":"Loaded 5 modules","timestamp":"2018-06-25T10:58:14.374Z"}
+{"level":"info","message":"[Skills] Loaded 1 skills","timestamp":"2018-06-25T10:58:14.376Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\content, doing nothing.","timestamp":"2018-06-25T10:58:14.378Z"}
+{"level":"debug","message":"Loading middleware: rendering.instrumentation","timestamp":"2018-06-25T10:58:14.509Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureInMessages","timestamp":"2018-06-25T10:58:14.510Z"}
+{"level":"debug","message":"Loading middleware: nlu.incoming","timestamp":"2018-06-25T10:58:14.511Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-06-25T10:58:14.511Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureOutMessages","timestamp":"2018-06-25T10:58:14.512Z"}
+{"level":"debug","message":"Loading middleware: webchat.sendMessages","timestamp":"2018-06-25T10:58:14.513Z"}
+{"level":"debug","message":"Loading middleware: fallback","timestamp":"2018-06-25T10:58:14.514Z"}
+{"level":"debug","message":"Loading data for builtin_text from builtin_text.json","timestamp":"2018-06-25T10:58:14.622Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-06-25T10:58:14.666Z"}
+{"level":"info","message":"Read 7 item(s) from builtin_text.json","timestamp":"2018-06-25T10:58:14.674Z"}
+{"level":"debug","message":"Loading data for builtin_image from builtin_image.json","timestamp":"2018-06-25T10:58:14.688Z"}
+{"level":"debug","message":"Loading data for builtin_single-choice from builtin_single-choice.json","timestamp":"2018-06-25T10:58:14.690Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_single-choice.json","timestamp":"2018-06-25T10:58:14.692Z"}
+{"level":"debug","message":"Loading data for builtin_card from builtin_card.json","timestamp":"2018-06-25T10:58:14.699Z"}
+{"level":"debug","message":"Loading data for builtin_action-button from builtin_action-button.json","timestamp":"2018-06-25T10:58:14.701Z"}
+{"level":"debug","message":"Loading data for builtin_carousel from builtin_carousel.json","timestamp":"2018-06-25T10:58:14.702Z"}
+{"level":"debug","message":"Loading data for builtin_raw from builtin_raw.json","timestamp":"2018-06-25T10:58:14.703Z"}
+{"level":"debug","message":"[NLU::Native] Model is up to date","timestamp":"2018-06-25T10:58:15.744Z"}
+{"level":"info","message":"------------","timestamp":"2018-06-25T10:58:15.745Z"}
+{"level":"info","message":"Webchat available at http://localhost:3000/s/chat","timestamp":"2018-06-25T10:58:15.748Z"}
+{"level":"info","message":"------------","timestamp":"2018-06-25T10:58:15.749Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-06-25T10:59:14.255Z"}
