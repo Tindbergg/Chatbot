@@ -6,9 +6,43 @@
     {
       "id": "8fb5e0ecbb",
       "name": "entry",
-      "onEnter": [],
-      "onReceive": null,
-      "next": []
+      "onEnter": [
+        "say #!builtin_text-2Cj1Xd"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_role\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getConversationVariable {\"name\":\"a_role\",\"output\":\"$ar\"}"
+      ],
+      "next": [
+        {
+          "condition": "state .$ar == 1",
+          "node": ""
+        },
+        {
+          "condition": "state .$ar == 2",
+          "node": ""
+        },
+        {
+          "condition": "state .$ar == 3",
+          "node": ""
+        },
+        {
+          "condition": "state .$ar == 4",
+          "node": ""
+        },
+        {
+          "condition": "state .$ar == 5",
+          "node": ""
+        },
+        {
+          "condition": "state .$ar == 6",
+          "node": ""
+        },
+        {
+          "condition": "otherwise",
+          "node": ""
+        }
+      ]
     }
   ]
 }
