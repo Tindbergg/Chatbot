@@ -90,5 +90,23 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-06-26T13:42:56.965Z"
+  },
+  {
+    "id": "builtin_text-BYNmni",
+    "formData": {
+      "text": "Incorrect input, please answer with 1,2,3 or 4.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T06:52:02.589Z"
+  },
+  {
+    "id": "builtin_text-sypZm7",
+    "formData": {
+      "text": "(1) What does a Dominator say?\n(2) How does a Dominator behave?\n(3) What can you do?\n(4) Return to other roles ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T12:56:38.813Z"
   }
 ]

@@ -17,5 +17,20 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-06-24T13:29:59.327Z"
+  },
+  {
+    "id": "builtin_single-choice-SI486b",
+    "formData": {
+      "text": "test",
+      "choices": [
+        {
+          "title": "testtesttes",
+          "value": "test"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-26T14:40:53.482Z"
   }
 ]

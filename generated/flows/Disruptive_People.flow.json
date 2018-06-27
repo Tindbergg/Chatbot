@@ -4,6 +4,20 @@
   "startNode": "entry",
   "nodes": [
     {
+      "id": "47b5824423",
+      "name": "incorrect_input",
+      "next": [
+        {
+          "condition": "always",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-BYNmni"
+      ],
+      "onReceive": null
+    },
+    {
       "id": "8fb5e0ecbb",
       "name": "entry",
       "onEnter": [
@@ -15,34 +29,81 @@
       ],
       "next": [
         {
-          "condition": "state .$ar == 1",
+          "condition": "state.$ar !== \"1\" && state.$ar !== \"2\"  && state.$ar !== \"3\" && state.$ar !== \"4\" && state.$ar !== \"5\" && state.$ar !== \"6\"",
+          "node": "incorrect_input"
+        },
+        {
+          "condition": "state .$ar == \"1\"",
+          "node": "Dominator"
+        },
+        {
+          "condition": "state .$ar == \"2\"",
           "node": ""
         },
         {
-          "condition": "state .$ar == 2",
+          "condition": "state .$ar == \"3\"",
           "node": ""
         },
         {
-          "condition": "state .$ar == 3",
+          "condition": "state .$ar == \"4\"",
           "node": ""
         },
         {
-          "condition": "state .$ar == 4",
+          "condition": "state .$ar == \"5\"",
           "node": ""
         },
         {
-          "condition": "state .$ar == 5",
-          "node": ""
-        },
-        {
-          "condition": "state .$ar == 6",
-          "node": ""
-        },
-        {
-          "condition": "otherwise",
+          "condition": "state .$ar == \"6\"",
           "node": ""
         }
       ]
+    },
+    {
+      "id": "0495c60122",
+      "name": "Dominator",
+      "next": [
+        {
+          "condition": "state .$ar == \"1\"",
+          "node": ""
+        },
+        {
+          "condition": "state .$ar == \"2\"",
+          "node": ""
+        },
+        {
+          "condition": "state .$ar == \"3\"",
+          "node": ""
+        },
+        {
+          "condition": "state .$ar == \"4\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$dom !== \"1\" && state.$dom !== \"2\"  && state.$dom !== \"3\" && state.$dom !== \"4\" ",
+          "node": "incorrect_input-copy"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-sypZm7"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_dom\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getConversationVariable {\"name\":\"a_dom\",\"output\":\"$dom\"}"
+      ]
+    },
+    {
+      "id": "5d723b8ba9",
+      "name": "incorrect_input-copy",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Dominator"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-BYNmni"
+      ],
+      "onReceive": null
     }
   ]
 }
