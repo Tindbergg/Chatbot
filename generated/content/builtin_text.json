@@ -94,7 +94,7 @@
   {
     "id": "builtin_text-BYNmni",
     "formData": {
-      "text": "Incorrect input, please answer with 1,2,3 or 4.",
+      "text": "Incorrect input, please answer with 1,2,3,5 or 6.",
       "typing": true
     },
     "createdBy": "admin",
@@ -108,5 +108,122 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-06-27T12:56:38.813Z"
+  },
+  {
+    "id": "builtin_text-yKrVxd",
+    "formData": {
+      "text": "A Dominator may say things like: \n \n\"I've signed more new accounts than anyone in this room\"\n \nor\n \n\"That would work if we weren't living in the real world\"",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T13:23:56.562Z"
+  },
+  {
+    "id": "builtin_text-ivnHxf",
+    "formData": {
+      "text": "A Dominator generally:\n \nLet others know how important they are\n \n\nTalk a lot, but are poor listeners\n\n \nTend to shut other participants out",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T13:27:19.745Z"
+  },
+  {
+    "id": "builtin_text-ys4QfY",
+    "formData": {
+      "text": "To handle a Dominator you can:\n \nAcknowledge their experience.\n \n\nEncourage them to share the limelight.\n \n\nAsk them to help you gain participation of others.\n \nBuild confidence of other participants.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T13:29:17.403Z"
+  },
+  {
+    "id": "builtin_text-ThN3rP",
+    "formData": {
+      "text": "Incorrect entry. Please answer with 1,2,3 or 4.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T13:33:37.636Z"
+  },
+  {
+    "id": "builtin_text-uV00yz",
+    "formData": {
+      "text": "Incorrect input, please answer with 1,2,3 or 4.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T13:33:44.310Z"
+  },
+  {
+    "id": "builtin_text-bZCZzA",
+    "formData": {
+      "text": "(1) What does a Talker say?\n(2) How does a Talker behave?\n(3) What can you do?\n(4) Return to other roles ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T13:34:33.293Z"
+  },
+  {
+    "id": "builtin_text-vCV09x",
+    "formData": {
+      "text": "A Talker may say things like:\n \n\"Come sit by me! I haven't talked to you in ages!\"\n \n\"Sorry! I had to tell her something really important\"\n \n\"I was listening. He was helping me with the exercise\"",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T13:36:21.868Z"
+  },
+  {
+    "id": "builtin_text-UNb_lv",
+    "formData": {
+      "text": "A Talker generally: \n \nTalk throughout the session.\n \nInvolve others in side conversations and outside the room.\n \nSeem disinterested in what you have to say.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T13:39:26.006Z"
+  },
+  {
+    "id": "builtin_text-c8K01H",
+    "formData": {
+      "text": "To handle a talker you can:\n \nDraw them into the activity you are leading.\n \nAsk them to share ideas with the entire group.\n \nMove physically closer to them to draw their attention.\n \nAsk them to hold side conversations during the break.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T13:41:21.523Z"
+  },
+  {
+    "id": "builtin_text-zOjrJm",
+    "formData": {
+      "text": "(1) What do Prisoners say?\n(2) How do Prisoners behave?\n(3) What can you do?\n(4) return to other roles",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T14:02:30.961Z"
+  },
+  {
+    "id": "builtin_text-yp8Fuq",
+    "formData": {
+      "text": "A Prisoner may say things like:\n \n\"Couldn't we have done this via conference call? It would have been easier.\"\n \n\"I've seen this before. Why do I have to be in this session?\"",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T14:06:07.882Z"
+  },
+  {
+    "id": "builtin_text-jzVHza",
+    "formData": {
+      "text": "A Prisoner generally:\n \nArrive late at beginning of session and from breaks.\n\nSeem uninterested.\n\nMake sure everyone realizes the sacrifices they have made to attend the session.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T14:08:45.579Z"
+  },
+  {
+    "id": "builtin_text-ItlISz",
+    "formData": {
+      "text": "To handle a Prisoner you can:\n \nInvolve them immediately\n \nAsk them for advice on the session or topics.\n \nQuote something they said to you during a break to show their value to the session.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-27T14:13:18.747Z"
   }
 ]

@@ -18,6 +18,184 @@
       "onReceive": null
     },
     {
+      "id": "c523250ad7",
+      "name": "Dom_Say",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Dominator"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-yKrVxd"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "c08af7c8a7",
+      "name": "Dom_Behave",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Dominator"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ivnHxf"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "856a751847",
+      "name": "Dom_solution",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Dominator"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ys4QfY"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "3fefb9eb2c",
+      "name": "Talker",
+      "next": [
+        {
+          "condition": "state .$talk == \"1\"",
+          "node": "Talk_say"
+        },
+        {
+          "condition": "state .$talk == \"2\"",
+          "node": "Talk_do"
+        },
+        {
+          "condition": "state .$talk == \"3\"",
+          "node": "Dom_solution-copy"
+        },
+        {
+          "condition": "state .$talk == \"4\"",
+          "node": "entry"
+        },
+        {
+          "condition": "state.$talk !== \"1\" && state.$talk !== \"2\"  && state.$talk !== \"3\" && state.$talk !== \"4\" ",
+          "node": "incorrect_input_Talker"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bZCZzA"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_talk\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_talk\",\"output\":\"$talk\"}"
+      ]
+    },
+    {
+      "id": "0495c60122",
+      "name": "Dominator",
+      "next": [
+        {
+          "condition": "state .$dom == \"1\"",
+          "node": "Dom_Say"
+        },
+        {
+          "condition": "state .$dom == \"2\"",
+          "node": "Dom_Behave"
+        },
+        {
+          "condition": "state .$dom == \"3\"",
+          "node": "Dom_solution"
+        },
+        {
+          "condition": "state .$dom == \"4\"",
+          "node": "entry"
+        },
+        {
+          "condition": "state.$dom !== \"1\" && state.$dom !== \"2\"  && state.$dom !== \"3\" && state.$dom !== \"4\" ",
+          "node": "incorrect_input_Dom"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-sypZm7"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_dom\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_dom\",\"output\":\"$dom\"}"
+      ]
+    },
+    {
+      "id": "7200f9e09f",
+      "name": "Talk_say",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Talker"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vCV09x"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "5d723b8ba9",
+      "name": "incorrect_input_Dom",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Dominator"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uV00yz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "baa5da479b",
+      "name": "Talk_do",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Talker"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-UNb_lv"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2f569fbfa4",
+      "name": "Dom_solution-copy",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Talker"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-c8K01H"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "6b4736b606",
+      "name": "incorrect_input_Talker",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Talker"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uV00yz"
+      ],
+      "onReceive": null
+    },
+    {
       "id": "8fb5e0ecbb",
       "name": "entry",
       "onEnter": [
@@ -25,24 +203,20 @@
       ],
       "onReceive": [
         "setUserVariable {\"name\":\"a_role\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
-        "getConversationVariable {\"name\":\"a_role\",\"output\":\"$ar\"}"
+        "getUserVariable {\"name\":\"a_role\",\"output\":\"$ar\"}"
       ],
       "next": [
         {
-          "condition": "state.$ar !== \"1\" && state.$ar !== \"2\"  && state.$ar !== \"3\" && state.$ar !== \"4\" && state.$ar !== \"5\" && state.$ar !== \"6\"",
-          "node": "incorrect_input"
-        },
-        {
-          "condition": "state .$ar == \"1\"",
+          "condition": "state .$ar === \"1\"",
           "node": "Dominator"
         },
         {
           "condition": "state .$ar == \"2\"",
-          "node": ""
+          "node": "Talker"
         },
         {
           "condition": "state .$ar == \"3\"",
-          "node": ""
+          "node": "Prisoner"
         },
         {
           "condition": "state .$ar == \"4\"",
@@ -55,53 +229,99 @@
         {
           "condition": "state .$ar == \"6\"",
           "node": ""
+        },
+        {
+          "condition": "state.$ar !== \"1\" && state.$ar !== \"2\" && state.$ar !== \"3\" && state.$ar !== \"4\" && state.$ar !== \"5\" && state.$ar !== \"6\"",
+          "node": "incorrect_input"
         }
       ]
     },
     {
-      "id": "0495c60122",
-      "name": "Dominator",
+      "id": "ded0ae4e21",
+      "name": "Prisoner",
       "next": [
         {
-          "condition": "state .$ar == \"1\"",
-          "node": ""
+          "condition": "state .$pris == \"1\"",
+          "node": "Pris_say"
         },
         {
-          "condition": "state .$ar == \"2\"",
-          "node": ""
+          "condition": "state .$pris == \"2\"",
+          "node": "Pris_Behave"
         },
         {
-          "condition": "state .$ar == \"3\"",
-          "node": ""
+          "condition": "state .$pris == \"3\"",
+          "node": "Pris_solution"
         },
         {
-          "condition": "state .$ar == \"4\"",
-          "node": ""
+          "condition": "state .$pris == \"4\"",
+          "node": "entry"
         },
         {
-          "condition": "state.$dom !== \"1\" && state.$dom !== \"2\"  && state.$dom !== \"3\" && state.$dom !== \"4\" ",
-          "node": "incorrect_input-copy"
+          "condition": "state.$pris !== \"1\" && state.$pris !== \"2\"  && state.$pris !== \"3\" && state.$pris !== \"4\" ",
+          "node": "incorrect_input_Pris"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-sypZm7"
+        "say #!builtin_text-zOjrJm"
       ],
       "onReceive": [
-        "setUserVariable {\"name\":\"a_dom\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
-        "getConversationVariable {\"name\":\"a_dom\",\"output\":\"$dom\"}"
+        "setUserVariable {\"name\":\"a_pris\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_pris\",\"output\":\"$pris\"}"
       ]
     },
     {
-      "id": "5d723b8ba9",
-      "name": "incorrect_input-copy",
+      "id": "c521a7381a",
+      "name": "incorrect_input_Pris",
       "next": [
         {
           "condition": "always",
-          "node": "Dominator"
+          "node": "Prisoner"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-BYNmni"
+        "say #!builtin_text-uV00yz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "7eab325aa2",
+      "name": "Pris_say",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Prisoner"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-yp8Fuq"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2bbcee8a76",
+      "name": "Pris_Behave",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Prisoner"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-jzVHza"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "bca790ddf5",
+      "name": "Pris_solution",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Prisoner"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ItlISz"
       ],
       "onReceive": null
     }
