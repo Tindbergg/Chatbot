@@ -193,7 +193,7 @@
   {
     "id": "builtin_text-zOjrJm",
     "formData": {
-      "text": "(1) What do Prisoners say?\n(2) How do Prisoners behave?\n(3) What can you do?\n(4) return to other roles",
+      "text": "(1) What do Prisoners say?\n(2) How do Prisoners behave?\n(3) What can you do?\n(4) Return to other roles",
       "typing": true
     },
     "createdBy": "admin",
@@ -225,5 +225,113 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-06-27T14:13:18.747Z"
+  },
+  {
+    "id": "builtin_text-amEVqn",
+    "formData": {
+      "text": "(1) What do Experts say?\n(2) How do Experts behave?\n(3) What can you do?\n(4) Return to other roles",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:02:45.748Z"
+  },
+  {
+    "id": "builtin_text-F90tE_",
+    "formData": {
+      "text": "An Expert may say things like:\n \n\"Why would you say that? A thinking person would agree with me.\"\n \n\"I wouldn't do it that way. It will never work\"\n\n\"That's good in theory, but we live in the real world\"",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:05:21.242Z"
+  },
+  {
+    "id": "builtin_text-OUAQP5",
+    "formData": {
+      "text": "An Expert generally:\n \nEnjoy challenging your competence\n \nArgue with other participants\n \nGive you the impression the already know it all",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:09:54.287Z"
+  },
+  {
+    "id": "builtin_text-1KnxQ1",
+    "formData": {
+      "text": "To handle an Expert you can:\n \nCall on them early so they do not decide when to challenge you.\n \nAcknowledge their comments without agreeing or disagreeing\n \nSolicit alternatives from group\n \nSpend time during breaks showing you understand their point of view",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:17:48.298Z"
+  },
+  {
+    "id": "builtin_text-aKJYAO",
+    "formData": {
+      "text": "(1) What do Complainers say?\n(2) How do Complainers behave?\n(3) What can you do?\n(4) Return to other roles",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:20:27.091Z"
+  },
+  {
+    "id": "builtin_text-doG8E6",
+    "formData": {
+      "text": "A Complainer may say things like:\n \n\"This room is freezing. You're cold too, right?\"\n \n\"Why do we have to start at 8.00 am. We're not morning people.\"\n \n\"Why do I always have to drive the farthest to these sessions?\"",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:25:24.809Z"
+  },
+  {
+    "id": "builtin_text-GUBPPd",
+    "formData": {
+      "text": "A Complainer generally:\n \nFind fault with everything -- food, lighting, agenda and ideas.\n \nVocalize displeasure with everything\n\nAttempt to recruit others in their displeasure",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:29:06.736Z"
+  },
+  {
+    "id": "builtin_text-vebkEB",
+    "formData": {
+      "text": "To handle a Complainer you can:\n \nRespond to their complaints immediately\n \nAsk if others have similar feelings\n \nBe tactful and patient with them",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:31:32.818Z"
+  },
+  {
+    "id": "builtin_text-EzpLya",
+    "formData": {
+      "text": "(1) What do Dependents say?\n(2) How do Dependents behave?\n(3) What can you do?\n(4) Return to other roles",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:33:28.669Z"
+  },
+  {
+    "id": "builtin_text-ue~g~w",
+    "formData": {
+      "text": "A Dependent may say things like:\n \n\"Is that the right answer?\"\n \n\"I agree with Mark, I don't have anything else to add.\"\n \n\"I'm not an expert so i don't know if this makes any sense.\"",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:38:03.128Z"
+  },
+  {
+    "id": "builtin_text-Moy3HC",
+    "formData": {
+      "text": "A Dependent generally:\n \nLack self confidence\n \nAgree with everything and don't seem to express their true opinions\n \nHave good ideas if you can illicit them",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:39:42.421Z"
+  },
+  {
+    "id": "builtin_text-I1k0fz",
+    "formData": {
+      "text": "To handle a Dependent you can:\n \nInvolve them gradually, beginning with questions they can easily answer.\n \nIdentify opportunities to involve them (e.g., hanging wall charts, distributing handouts).\n \nBe available to assist them during small group activities.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T07:42:19.653Z"
   }
 ]

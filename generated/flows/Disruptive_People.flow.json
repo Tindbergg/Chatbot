@@ -47,7 +47,7 @@
     },
     {
       "id": "856a751847",
-      "name": "Dom_solution",
+      "name": "Dom_Solution",
       "next": [
         {
           "condition": "always",
@@ -65,11 +65,11 @@
       "next": [
         {
           "condition": "state .$talk == \"1\"",
-          "node": "Talk_say"
+          "node": "Talk_Say"
         },
         {
           "condition": "state .$talk == \"2\"",
-          "node": "Talk_do"
+          "node": "Talk_Behave"
         },
         {
           "condition": "state .$talk == \"3\"",
@@ -106,7 +106,7 @@
         },
         {
           "condition": "state .$dom == \"3\"",
-          "node": "Dom_solution"
+          "node": "Dom_Solution"
         },
         {
           "condition": "state .$dom == \"4\"",
@@ -127,7 +127,7 @@
     },
     {
       "id": "7200f9e09f",
-      "name": "Talk_say",
+      "name": "Talk_Say",
       "next": [
         {
           "condition": "always",
@@ -155,7 +155,7 @@
     },
     {
       "id": "baa5da479b",
-      "name": "Talk_do",
+      "name": "Talk_Behave",
       "next": [
         {
           "condition": "always",
@@ -220,15 +220,15 @@
         },
         {
           "condition": "state .$ar == \"4\"",
-          "node": ""
+          "node": "Expert"
         },
         {
           "condition": "state .$ar == \"5\"",
-          "node": ""
+          "node": "Complainer"
         },
         {
           "condition": "state .$ar == \"6\"",
-          "node": ""
+          "node": "Dependent"
         },
         {
           "condition": "state.$ar !== \"1\" && state.$ar !== \"2\" && state.$ar !== \"3\" && state.$ar !== \"4\" && state.$ar !== \"5\" && state.$ar !== \"6\"",
@@ -242,7 +242,7 @@
       "next": [
         {
           "condition": "state .$pris == \"1\"",
-          "node": "Pris_say"
+          "node": "Pris_Say"
         },
         {
           "condition": "state .$pris == \"2\"",
@@ -250,7 +250,7 @@
         },
         {
           "condition": "state .$pris == \"3\"",
-          "node": "Pris_solution"
+          "node": "Pris_Solution"
         },
         {
           "condition": "state .$pris == \"4\"",
@@ -285,7 +285,7 @@
     },
     {
       "id": "7eab325aa2",
-      "name": "Pris_say",
+      "name": "Pris_Say",
       "next": [
         {
           "condition": "always",
@@ -313,7 +313,7 @@
     },
     {
       "id": "bca790ddf5",
-      "name": "Pris_solution",
+      "name": "Pris_Solution",
       "next": [
         {
           "condition": "always",
@@ -322,6 +322,273 @@
       ],
       "onEnter": [
         "say #!builtin_text-ItlISz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "7c8c40f7e7",
+      "name": "Expert",
+      "next": [
+        {
+          "condition": "state .$exp == \"1\"",
+          "node": "Exp_Say"
+        },
+        {
+          "condition": "state .$exp == \"2\"",
+          "node": "Exp_Behave"
+        },
+        {
+          "condition": "state .$exp == \"3\"",
+          "node": "Exp_Solution"
+        },
+        {
+          "condition": "state .$exp == \"4\"",
+          "node": "entry"
+        },
+        {
+          "condition": "state.$exp !== \"1\" && state.$exp !== \"2\"  && state.$exp !== \"3\" && state.$exp !== \"4\" ",
+          "node": "incorrect_input_Exp"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-amEVqn"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_exp\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_exp\",\"output\":\"$exp\"}"
+      ]
+    },
+    {
+      "id": "4e81866c70",
+      "name": "Exp_Say",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Expert"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-F90tE_"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "20cd7977b8",
+      "name": "incorrect_input_Exp",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Expert"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uV00yz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "59a5797e1c",
+      "name": "Exp_Behave",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Expert"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-OUAQP5"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "0ffa768752",
+      "name": "Exp_Solution",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Expert"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-1KnxQ1"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "0b2390bcbd",
+      "name": "Complainer",
+      "next": [
+        {
+          "condition": "state .$comp == \"1\"",
+          "node": "Comp_Say"
+        },
+        {
+          "condition": "state .$comp == \"2\"",
+          "node": "Comp_Behave"
+        },
+        {
+          "condition": "state .$comp == \"3\"",
+          "node": "Comp_Solution"
+        },
+        {
+          "condition": "state .$comp == \"4\"",
+          "node": "entry"
+        },
+        {
+          "condition": "state.$comp !== \"1\" && state.$comp !== \"2\"  && state.$comp !== \"3\" && state.$comp !== \"4\" ",
+          "node": "incorrect_input_Comp"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-aKJYAO"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_comp\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_comp\",\"output\":\"$comp\"}"
+      ]
+    },
+    {
+      "id": "930cc8baee",
+      "name": "incorrect_input_Comp",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Complainer"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uV00yz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d71f36e5e2",
+      "name": "Comp_Say",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Complainer"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-doG8E6"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "5819b11426",
+      "name": "Comp_Behave",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Complainer"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-GUBPPd"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "ca14d4d701",
+      "name": "Comp_Solution",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Complainer"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vebkEB"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "a23af28719",
+      "name": "Dependent",
+      "next": [
+        {
+          "condition": "state .$dep == \"1\"",
+          "node": "Dep_Say"
+        },
+        {
+          "condition": "state .$dep == \"2\"",
+          "node": "Dep_Behave"
+        },
+        {
+          "condition": "state .$dep == \"3\"",
+          "node": "Dep_Solution"
+        },
+        {
+          "condition": "state .$dep == \"4\"",
+          "node": "entry"
+        },
+        {
+          "condition": "state.$dep !== \"1\" && state.$dep !== \"2\"  && state.$dep !== \"3\" && state.$dep !== \"4\" ",
+          "node": "incorrect_input_Dep"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-EzpLya"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_dep\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_dep\",\"output\":\"$dep\"}"
+      ]
+    },
+    {
+      "id": "909a13e53f",
+      "name": "Dep_Say",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Dependent"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ue~g~w"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "14d57c429c",
+      "name": "Dep_Behave",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Dependent"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Moy3HC"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "741116bb31",
+      "name": "Dep_Solution",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Dependent"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-I1k0fz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "482855ae04",
+      "name": "incorrect_input_Dep",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Dependent"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uV00yz"
       ],
       "onReceive": null
     }
