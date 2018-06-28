@@ -369,5 +369,14 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-06-28T08:25:17.189Z"
+  },
+  {
+    "id": "builtin_text-j3WEx1",
+    "formData": {
+      "text": "To handle a Dependent you can:\n \nInvolve them gradually, beginning with questions they can easily answer.\n \nIdentify opportunities to involve them\n \nBe available to assist them during small group activities",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T11:26:09.022Z"
   }
 ]

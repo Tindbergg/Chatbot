@@ -472,11 +472,11 @@
         },
         {
           "condition": "state .$dep == \"2\"",
-          "node": "Dep_Solution"
+          "node": "Dep_Behave"
         },
         {
           "condition": "state .$dep == \"3\"",
-          "node": "Dep_Behave"
+          "node": "Dep_Solution"
         },
         {
           "condition": "state .$dep == \"4\"",
@@ -592,7 +592,7 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_text-I1k0fz"
+        "say #!builtin_text-j3WEx1"
       ],
       "onReceive": null
     }
