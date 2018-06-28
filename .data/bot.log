@@ -115,3 +115,195 @@
 {"level":"info","message":"------------","timestamp":"2018-06-26T10:39:03.279Z"}
 {"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-06-26T10:39:10.114Z"}
 {"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-06-26T10:59:49.019Z"}
+{"level":"info","message":"Starting botpress version 10.20.1","timestamp":"2018-06-28T08:36:46.036Z"}
+{"level":"info","message":"[Ghost Content Manager] (transparent) Initialized","timestamp":"2018-06-28T08:36:46.369Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\media, doing nothing.","timestamp":"2018-06-28T08:36:46.379Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\flows, doing nothing.","timestamp":"2018-06-28T08:36:46.381Z"}
+{"level":"info","message":"[Skills] Initiated","timestamp":"2018-06-28T08:36:46.383Z"}
+{"level":"info","message":"Loaded @botpress/audience, version 10.20.1","timestamp":"2018-06-28T08:36:46.393Z"}
+{"level":"verbose","message":"[Renderers] Enabled for webchat.","timestamp":"2018-06-28T08:36:46.767Z"}
+{"level":"info","message":"Loaded @botpress/channel-web, version 10.20.1","timestamp":"2018-06-28T08:36:46.771Z"}
+{"level":"info","message":"Loaded @botpress/hitl, version 10.20.1","timestamp":"2018-06-28T08:36:46.778Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\intents, doing nothing.","timestamp":"2018-06-28T08:36:47.458Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\entities, doing nothing.","timestamp":"2018-06-28T08:36:47.462Z"}
+{"level":"info","message":"Loaded @botpress/nlu, version 10.20.1","timestamp":"2018-06-28T08:36:47.464Z"}
+{"level":"info","message":"Loaded @botpress/skill-choice, version 10.20.1","timestamp":"2018-06-28T08:36:47.475Z"}
+{"level":"info","message":"Loaded 5 modules","timestamp":"2018-06-28T08:36:47.483Z"}
+{"level":"info","message":"[Skills] Loaded 1 skills","timestamp":"2018-06-28T08:36:47.486Z"}
+{"level":"debug","message":"[Ghost Content Manager] (transparent) Added root folder generated\\content, doing nothing.","timestamp":"2018-06-28T08:36:47.490Z"}
+{"level":"debug","message":"Loading middleware: rendering.instrumentation","timestamp":"2018-06-28T08:36:47.538Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureInMessages","timestamp":"2018-06-28T08:36:47.538Z"}
+{"level":"debug","message":"Loading middleware: nlu.incoming","timestamp":"2018-06-28T08:36:47.542Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-06-28T08:36:47.543Z"}
+{"level":"debug","message":"Loading middleware: hitl.captureOutMessages","timestamp":"2018-06-28T08:36:47.544Z"}
+{"level":"debug","message":"Loading middleware: webchat.sendMessages","timestamp":"2018-06-28T08:36:47.544Z"}
+{"level":"debug","message":"Loading middleware: fallback","timestamp":"2018-06-28T08:36:47.545Z"}
+{"level":"debug","message":"Loading data for builtin_text from builtin_text.json","timestamp":"2018-06-28T08:36:47.601Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-06-28T08:36:47.625Z"}
+{"level":"info","message":"Read 37 item(s) from builtin_text.json","timestamp":"2018-06-28T08:36:47.630Z"}
+{"level":"debug","message":"Loading data for builtin_image from builtin_image.json","timestamp":"2018-06-28T08:36:47.657Z"}
+{"level":"debug","message":"Loading data for builtin_single-choice from builtin_single-choice.json","timestamp":"2018-06-28T08:36:47.659Z"}
+{"level":"info","message":"Read 2 item(s) from builtin_single-choice.json","timestamp":"2018-06-28T08:36:47.661Z"}
+{"level":"debug","message":"Loading data for builtin_card from builtin_card.json","timestamp":"2018-06-28T08:36:47.665Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_card.json","timestamp":"2018-06-28T08:36:47.667Z"}
+{"level":"debug","message":"Loading data for builtin_action-button from builtin_action-button.json","timestamp":"2018-06-28T08:36:47.669Z"}
+{"level":"debug","message":"Loading data for builtin_carousel from builtin_carousel.json","timestamp":"2018-06-28T08:36:47.671Z"}
+{"level":"info","message":"Read 1 item(s) from builtin_carousel.json","timestamp":"2018-06-28T08:36:47.675Z"}
+{"level":"debug","message":"Loading data for builtin_raw from builtin_raw.json","timestamp":"2018-06-28T08:36:47.677Z"}
+{"level":"debug","message":"[NLU::Native] Model is up to date","timestamp":"2018-06-28T08:36:48.209Z"}
+{"level":"info","message":"------------","timestamp":"2018-06-28T08:36:48.213Z"}
+{"level":"info","message":"Webchat available at http://localhost:3000/s/chat","timestamp":"2018-06-28T08:36:48.214Z"}
+{"level":"info","message":"------------","timestamp":"2018-06-28T08:36:48.215Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      **  LOAD \t ","timestamp":"2018-06-28T08:36:55.371Z"}
+{"level":"debug","message":"Dialog: [main] ( N/A )                       <~  RECV \t \"Hello\"","timestamp":"2018-06-28T08:37:03.266Z"}
+{"level":"debug","message":"Dialog: [main] ( N/A )                       !!  KALL \t ","timestamp":"2018-06-28T08:37:03.271Z"}
+{"level":"debug","message":"Dialog: [main] ( N/A )                       ..  KALL \t ","timestamp":"2018-06-28T08:37:03.272Z"}
+{"level":"debug","message":"Dialog: [main] ( N/A )                       ?X  KALL \t ","timestamp":"2018-06-28T08:37:03.276Z"}
+{"level":"debug","message":"Dialog: [main] (entry)                       !!  ENTR \t ","timestamp":"2018-06-28T08:37:03.295Z"}
+{"level":"debug","message":"Dialog: [main] (entry)                       !!  EXEC \t func \"getUserVariable\"","timestamp":"2018-06-28T08:37:03.300Z"}
+{"level":"debug","message":"Dialog: [main] (entry)                       !!  SSET \t ","timestamp":"2018-06-28T08:37:03.303Z"}
+{"level":"debug","message":"Dialog: [main] (entry)                       ..  NOWT \t ","timestamp":"2018-06-28T08:37:03.305Z"}
+{"level":"debug","message":"Dialog: [main] (entry)                       ??  MTCH \t cond = \"true\"","timestamp":"2018-06-28T08:37:03.309Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"ask-name\"","timestamp":"2018-06-28T08:37:03.310Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    !!  ENTR \t ","timestamp":"2018-06-28T08:37:03.382Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-z0J9q\"","timestamp":"2018-06-28T08:37:03.386Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    <~  RECV \t \"Gustav\"","timestamp":"2018-06-28T08:37:07.154Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    !!  KALL \t ","timestamp":"2018-06-28T08:37:07.154Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ..  KALL \t ","timestamp":"2018-06-28T08:37:07.159Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ?X  KALL \t ","timestamp":"2018-06-28T08:37:07.161Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    !!  RECV \t ","timestamp":"2018-06-28T08:37:07.163Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    !!  EXEC \t func \"setUserVariable\"","timestamp":"2018-06-28T08:37:07.168Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    !!  EXEC \t func \"getUserVariable\"","timestamp":"2018-06-28T08:37:07.189Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    !!  SSET \t ","timestamp":"2018-06-28T08:37:07.191Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ..  RECV \t ","timestamp":"2018-06-28T08:37:07.192Z"}
+{"level":"debug","message":"Dialog: [main] (ask-name)                    ??  MTCH \t cond = \"true\"","timestamp":"2018-06-28T08:37:07.192Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"welcome\"","timestamp":"2018-06-28T08:37:07.197Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     !!  ENTR \t ","timestamp":"2018-06-28T08:37:07.222Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-pSsHW\"","timestamp":"2018-06-28T08:37:07.223Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     <~  RECV \t \"2\"","timestamp":"2018-06-28T08:37:09.511Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     !!  KALL \t ","timestamp":"2018-06-28T08:37:09.516Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     ..  KALL \t ","timestamp":"2018-06-28T08:37:09.517Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     ?X  KALL \t ","timestamp":"2018-06-28T08:37:09.519Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     !!  RECV \t ","timestamp":"2018-06-28T08:37:09.520Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     !!  EXEC \t func \"setUserVariable\"","timestamp":"2018-06-28T08:37:09.525Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     !!  EXEC \t func \"getUserVariable\"","timestamp":"2018-06-28T08:37:09.534Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     !!  SSET \t ","timestamp":"2018-06-28T08:37:09.535Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     ..  RECV \t ","timestamp":"2018-06-28T08:37:09.537Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     ??  MTCH \t cond = \"state.$flow == \"2\"\"","timestamp":"2018-06-28T08:37:09.542Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     >>  FLOW \t \"Disruptive_People.flow.json\"","timestamp":"2018-06-28T08:37:09.547Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  ENTR \t ","timestamp":"2018-06-28T08:37:09.567Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-hMyyj\"","timestamp":"2018-06-28T08:37:09.571Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             <~  RECV \t \"3\"","timestamp":"2018-06-28T08:37:11.526Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  RECV \t ","timestamp":"2018-06-28T08:37:11.526Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  EXEC \t func \"setUserVariable\"","timestamp":"2018-06-28T08:37:11.532Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  EXEC \t func \"getUserVariable\"","timestamp":"2018-06-28T08:37:11.540Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  SSET \t ","timestamp":"2018-06-28T08:37:11.545Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             ..  RECV \t ","timestamp":"2018-06-28T08:37:11.547Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             ??  MTCH \t cond = \"state .$ar == \"3\"\"","timestamp":"2018-06-28T08:37:11.553Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"Prisoner\"","timestamp":"2018-06-28T08:37:11.554Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          !!  ENTR \t ","timestamp":"2018-06-28T08:37:11.575Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-zOjrJ\"","timestamp":"2018-06-28T08:37:11.579Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          <~  RECV \t \"3\"","timestamp":"2018-06-28T08:37:13.913Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          !!  RECV \t ","timestamp":"2018-06-28T08:37:13.918Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          !!  EXEC \t func \"setUserVariable\"","timestamp":"2018-06-28T08:37:13.919Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          !!  EXEC \t func \"getUserVariable\"","timestamp":"2018-06-28T08:37:13.946Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          !!  SSET \t ","timestamp":"2018-06-28T08:37:13.947Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          ..  RECV \t ","timestamp":"2018-06-28T08:37:13.949Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          ??  MTCH \t cond = \"state .$pris == \"3\"\"","timestamp":"2018-06-28T08:37:13.955Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"Pris_Solution\"","timestamp":"2018-06-28T08:37:13.959Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Pris_Solution)     !!  ENTR \t ","timestamp":"2018-06-28T08:37:13.971Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-ItlIS\"","timestamp":"2018-06-28T08:37:13.979Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Pris_Solution)     ..  NOWT \t ","timestamp":"2018-06-28T08:37:13.981Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Pris_Solution)     ??  MTCH \t cond = \"always\"","timestamp":"2018-06-28T08:37:13.985Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"Prisoner\"","timestamp":"2018-06-28T08:37:13.986Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          !!  ENTR \t ","timestamp":"2018-06-28T08:37:13.996Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-zOjrJ\"","timestamp":"2018-06-28T08:37:13.997Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          <~  RECV \t \"4\"","timestamp":"2018-06-28T08:37:17.425Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          !!  RECV \t ","timestamp":"2018-06-28T08:37:17.426Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          !!  EXEC \t func \"setUserVariable\"","timestamp":"2018-06-28T08:37:17.430Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          !!  EXEC \t func \"getUserVariable\"","timestamp":"2018-06-28T08:37:17.450Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          !!  SSET \t ","timestamp":"2018-06-28T08:37:17.454Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          ..  RECV \t ","timestamp":"2018-06-28T08:37:17.455Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Prisoner)          ??  MTCH \t cond = \"state .$pris == \"4\"\"","timestamp":"2018-06-28T08:37:17.461Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"entry\"","timestamp":"2018-06-28T08:37:17.466Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  ENTR \t ","timestamp":"2018-06-28T08:37:17.479Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-hMyyj\"","timestamp":"2018-06-28T08:37:17.479Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             <~  RECV \t \"6\"","timestamp":"2018-06-28T08:37:19.405Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  RECV \t ","timestamp":"2018-06-28T08:37:19.409Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  EXEC \t func \"setUserVariable\"","timestamp":"2018-06-28T08:37:19.410Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  EXEC \t func \"getUserVariable\"","timestamp":"2018-06-28T08:37:19.416Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  SSET \t ","timestamp":"2018-06-28T08:37:19.421Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             ..  RECV \t ","timestamp":"2018-06-28T08:37:19.422Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             ??  MTCH \t cond = \"state .$ar == \"6\"\"","timestamp":"2018-06-28T08:37:19.431Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"Dependent\"","timestamp":"2018-06-28T08:37:19.436Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         !!  ENTR \t ","timestamp":"2018-06-28T08:37:19.455Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-EzpLy\"","timestamp":"2018-06-28T08:37:19.460Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         <~  RECV \t \"3\"","timestamp":"2018-06-28T08:37:21.006Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         !!  RECV \t ","timestamp":"2018-06-28T08:37:21.010Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         !!  EXEC \t func \"setUserVariable\"","timestamp":"2018-06-28T08:37:21.011Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         !!  EXEC \t func \"getUserVariable\"","timestamp":"2018-06-28T08:37:21.018Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         !!  SSET \t ","timestamp":"2018-06-28T08:37:21.022Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         ..  RECV \t ","timestamp":"2018-06-28T08:37:21.023Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         ??  MTCH \t cond = \"state .$dep == \"3\"\"","timestamp":"2018-06-28T08:37:21.028Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"Dep_Solution\"","timestamp":"2018-06-28T08:37:21.034Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dep_Solution)      !!  ENTR \t ","timestamp":"2018-06-28T08:37:21.057Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-I1k0f\"","timestamp":"2018-06-28T08:37:21.061Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dep_Solution)      ..  NOWT \t ","timestamp":"2018-06-28T08:37:21.063Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dep_Solution)      ??  MTCH \t cond = \"always\"","timestamp":"2018-06-28T08:37:21.064Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"Dependent\"","timestamp":"2018-06-28T08:37:21.065Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         !!  ENTR \t ","timestamp":"2018-06-28T08:37:21.074Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-EzpLy\"","timestamp":"2018-06-28T08:37:21.075Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         <>  NTHG \t ","timestamp":"2018-06-28T10:51:03.733Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      --  ENDF \t ","timestamp":"2018-06-28T10:51:03.762Z"}
+{"level":"debug","message":"Dialog: [main] ( N/A )                       <~  RECV \t \"hello\"","timestamp":"2018-06-28T11:01:24.805Z"}
+{"level":"debug","message":"Dialog: [main] ( N/A )                       !!  KALL \t ","timestamp":"2018-06-28T11:01:24.805Z"}
+{"level":"debug","message":"Dialog: [main] ( N/A )                       ..  KALL \t ","timestamp":"2018-06-28T11:01:24.806Z"}
+{"level":"debug","message":"Dialog: [main] ( N/A )                       ?X  KALL \t ","timestamp":"2018-06-28T11:01:24.808Z"}
+{"level":"debug","message":"Dialog: [main] (entry)                       !!  ENTR \t ","timestamp":"2018-06-28T11:01:24.824Z"}
+{"level":"debug","message":"Dialog: [main] (entry)                       !!  EXEC \t func \"getUserVariable\"","timestamp":"2018-06-28T11:01:24.825Z"}
+{"level":"debug","message":"Dialog: [main] (entry)                       !!  SSET \t ","timestamp":"2018-06-28T11:01:24.826Z"}
+{"level":"debug","message":"Dialog: [main] (entry)                       ..  NOWT \t ","timestamp":"2018-06-28T11:01:24.827Z"}
+{"level":"debug","message":"Dialog: [main] (entry)                       ??  MTCH \t cond = \"state.$r !== null\"","timestamp":"2018-06-28T11:01:24.828Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"welcome\"","timestamp":"2018-06-28T11:01:24.829Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     !!  ENTR \t ","timestamp":"2018-06-28T11:01:24.840Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-pSsHW\"","timestamp":"2018-06-28T11:01:24.840Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     <~  RECV \t \"2\"","timestamp":"2018-06-28T11:01:27.787Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     !!  KALL \t ","timestamp":"2018-06-28T11:01:27.788Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     ..  KALL \t ","timestamp":"2018-06-28T11:01:27.789Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     ?X  KALL \t ","timestamp":"2018-06-28T11:01:27.790Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     !!  RECV \t ","timestamp":"2018-06-28T11:01:27.791Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     !!  EXEC \t func \"setUserVariable\"","timestamp":"2018-06-28T11:01:27.792Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     !!  EXEC \t func \"getUserVariable\"","timestamp":"2018-06-28T11:01:27.798Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     !!  SSET \t ","timestamp":"2018-06-28T11:01:27.800Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     ..  RECV \t ","timestamp":"2018-06-28T11:01:27.800Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     ??  MTCH \t cond = \"state.$flow == \"2\"\"","timestamp":"2018-06-28T11:01:27.804Z"}
+{"level":"debug","message":"Dialog: [main] (welcome)                     >>  FLOW \t \"Disruptive_People.flow.json\"","timestamp":"2018-06-28T11:01:27.805Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  ENTR \t ","timestamp":"2018-06-28T11:01:27.862Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-hMyyj\"","timestamp":"2018-06-28T11:01:27.862Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             <~  RECV \t \"6\"","timestamp":"2018-06-28T11:01:30.540Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  RECV \t ","timestamp":"2018-06-28T11:01:30.541Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  EXEC \t func \"setUserVariable\"","timestamp":"2018-06-28T11:01:30.541Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  EXEC \t func \"getUserVariable\"","timestamp":"2018-06-28T11:01:30.548Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             !!  SSET \t ","timestamp":"2018-06-28T11:01:30.550Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             ..  RECV \t ","timestamp":"2018-06-28T11:01:30.551Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (entry)             ??  MTCH \t cond = \"state .$ar == \"6\"\"","timestamp":"2018-06-28T11:01:30.559Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"Dependent\"","timestamp":"2018-06-28T11:01:30.560Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         !!  ENTR \t ","timestamp":"2018-06-28T11:01:30.572Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-EzpLy\"","timestamp":"2018-06-28T11:01:30.573Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         <~  RECV \t \"3\"","timestamp":"2018-06-28T11:01:32.225Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         !!  RECV \t ","timestamp":"2018-06-28T11:01:32.225Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         !!  EXEC \t func \"setUserVariable\"","timestamp":"2018-06-28T11:01:32.227Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         !!  EXEC \t func \"getUserVariable\"","timestamp":"2018-06-28T11:01:32.245Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         !!  SSET \t ","timestamp":"2018-06-28T11:01:32.247Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         ..  RECV \t ","timestamp":"2018-06-28T11:01:32.248Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         ??  MTCH \t cond = \"state .$dep == \"3\"\"","timestamp":"2018-06-28T11:01:32.252Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"Dep_Solution\"","timestamp":"2018-06-28T11:01:32.252Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dep_Solution)      !!  ENTR \t ","timestamp":"2018-06-28T11:01:32.265Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-I1k0f\"","timestamp":"2018-06-28T11:01:32.266Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dep_Solution)      ..  NOWT \t ","timestamp":"2018-06-28T11:01:32.266Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dep_Solution)      ??  MTCH \t cond = \"always\"","timestamp":"2018-06-28T11:01:32.267Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      >>  FLOW \t \"Dependent\"","timestamp":"2018-06-28T11:01:32.267Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         !!  ENTR \t ","timestamp":"2018-06-28T11:01:32.279Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      ~>  SEND \t \"#!builtin_text-EzpLy\"","timestamp":"2018-06-28T11:01:32.280Z"}
+{"level":"debug","message":"Dialog: [Disruptive_Pe&] (Dependent)         <>  NTHG \t ","timestamp":"2018-06-28T11:03:32.596Z"}
+{"level":"debug","message":"Dialog: [ N/A ] ( N/A )                      --  ENDF \t ","timestamp":"2018-06-28T11:03:32.614Z"}
