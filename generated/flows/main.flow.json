@@ -15,7 +15,8 @@
       "id": "a54a82eb7c",
       "name": "entry",
       "onEnter": [
-        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}"
+        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}",
+        "say #!builtin_text-9rCsWK"
       ],
       "onReceive": null,
       "next": [
@@ -47,6 +48,20 @@
       ]
     },
     {
+      "id": "1c2b819935",
+      "name": "incorrect_input",
+      "next": [
+        {
+          "condition": "always",
+          "node": "welcome"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-goq_NY"
+      ],
+      "onReceive": null
+    },
+    {
       "id": "bda0320009",
       "name": "welcome",
       "onEnter": [
@@ -66,24 +81,30 @@
           "node": "Disruptive_People.flow.json"
         },
         {
-          "condition": "state.$flow !== \"1\" && state.$flow !== \"2\"",
+          "condition": "state.$flow == \"3\"",
+          "node": "Forget_Name"
+        },
+        {
+          "condition": "state.$flow !== \"1\" && state.$flow !== \"2\" && state.$flow !== \"3\"",
           "node": "incorrect_input"
         }
       ]
     },
     {
-      "id": "1c2b819935",
-      "name": "incorrect_input",
+      "id": "5143116fcd",
+      "name": "Forget_Name",
       "next": [
         {
           "condition": "always",
-          "node": "welcome"
+          "node": "entry"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-goq_NY"
+        "say #!builtin_text-ZA0OGr"
       ],
-      "onReceive": null
+      "onReceive": [
+        "resetUserVariable {\"name\":\"nickname\"}"
+      ]
     }
   ]
 }

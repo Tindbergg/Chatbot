@@ -2,7 +2,7 @@
   {
     "id": "builtin_text-pSsHWg",
     "formData": {
-      "text": "Hello, {{state.$r}}! What would you like to learn about? \n\n(1) Facilitation\n(2) Disruptive people\n\n(Please answer with \"1\" or \"2\")",
+      "text": "Hello, {{state.$r}}! What would you like to do? \n \n(1) Learn about Facilitation\n(2) Learn about Disruptive people\n(3) Forget my name\n(Please answer with 1-3)",
       "variations": [],
       "typing": true
     },
@@ -76,7 +76,7 @@
   {
     "id": "builtin_text-goq_NY",
     "formData": {
-      "text": "Please answer with 1 or 2",
+      "text": "Please answer with 1,2 or 3",
       "typing": true
     },
     "createdBy": "admin",
@@ -85,7 +85,7 @@
   {
     "id": "builtin_text-hMyyjX",
     "formData": {
-      "text": "You've chosen \"Disruptive people\". What type of person would you like to learn more about?\n(1) Dominator\n(2) Talker\n(3)  Prisoner\n(4) Expert\n(5) Complainer\n(6) Dependent\n(Please answer 1-6)",
+      "text": "You've chosen \"Disruptive people\". What type of person would you like to learn more about?\n(1) Dominator\n(2) Talker\n(3)  Prisoner\n(4) Expert\n(5) Complainer\n(6) Dependent\n(7) Return to main menu\n(Please answer 1-7)",
       "typing": true
     },
     "createdBy": "admin",
@@ -94,7 +94,7 @@
   {
     "id": "builtin_text-BYNmni",
     "formData": {
-      "text": "Incorrect input, please answer with 1,2,3,5 or 6.",
+      "text": "Incorrect input, please answer with 1,2,3,5,6 or 7.",
       "typing": true
     },
     "createdBy": "admin",
@@ -328,10 +328,46 @@
   {
     "id": "builtin_text-I1k0fz",
     "formData": {
-      "text": "To handle a Dependent you can:\n \nInvolve them gradually, beginning with questions they can easily answer.\n \nIdentify opportunities to involve them (e.g., hanging wall charts, distributing handouts).\n \nBe available to assist them during small group activities.",
+      "text": "To handle a Dependent you can:\n \nInvolve them gradually, beginning with questions they can easily answer\n \nIdentify opportunities to involve them (e.g., hanging wall charts, distributing handouts)\n \nBe available to assist them during small group activities",
       "typing": true
     },
     "createdBy": "admin",
     "createdOn": "2018-06-28T07:42:19.653Z"
+  },
+  {
+    "id": "builtin_text-ZA0OGr",
+    "formData": {
+      "text": "I have forgotten your name! Speak to me again to start from the beginning.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T08:08:03.254Z"
+  },
+  {
+    "id": "builtin_text-8buwI_",
+    "formData": {
+      "text": "test",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T08:21:25.711Z"
+  },
+  {
+    "id": "builtin_text-0brMte",
+    "formData": {
+      "text": "facilitation",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T08:22:32.293Z"
+  },
+  {
+    "id": "builtin_text-9rCsWK",
+    "formData": {
+      "text": "Main",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T08:25:17.189Z"
   }
 ]

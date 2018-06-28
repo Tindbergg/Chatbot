@@ -196,47 +196,6 @@
       "onReceive": null
     },
     {
-      "id": "8fb5e0ecbb",
-      "name": "entry",
-      "onEnter": [
-        "say #!builtin_text-hMyyjX"
-      ],
-      "onReceive": [
-        "setUserVariable {\"name\":\"a_role\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
-        "getUserVariable {\"name\":\"a_role\",\"output\":\"$ar\"}"
-      ],
-      "next": [
-        {
-          "condition": "state .$ar === \"1\"",
-          "node": "Dominator"
-        },
-        {
-          "condition": "state .$ar == \"2\"",
-          "node": "Talker"
-        },
-        {
-          "condition": "state .$ar == \"3\"",
-          "node": "Prisoner"
-        },
-        {
-          "condition": "state .$ar == \"4\"",
-          "node": "Expert"
-        },
-        {
-          "condition": "state .$ar == \"5\"",
-          "node": "Complainer"
-        },
-        {
-          "condition": "state .$ar == \"6\"",
-          "node": "Dependent"
-        },
-        {
-          "condition": "state.$ar !== \"1\" && state.$ar !== \"2\" && state.$ar !== \"3\" && state.$ar !== \"4\" && state.$ar !== \"5\" && state.$ar !== \"6\"",
-          "node": "incorrect_input"
-        }
-      ]
-    },
-    {
       "id": "ded0ae4e21",
       "name": "Prisoner",
       "next": [
@@ -565,20 +524,6 @@
       "onReceive": null
     },
     {
-      "id": "741116bb31",
-      "name": "Dep_Solution",
-      "next": [
-        {
-          "condition": "always",
-          "node": "Dependent"
-        }
-      ],
-      "onEnter": [
-        "say #!builtin_text-I1k0fz"
-      ],
-      "onReceive": null
-    },
-    {
       "id": "482855ae04",
       "name": "incorrect_input_Dep",
       "next": [
@@ -589,6 +534,65 @@
       ],
       "onEnter": [
         "say #!builtin_text-uV00yz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "8fb5e0ecbb",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-hMyyjX"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_role\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_role\",\"output\":\"$ar\"}"
+      ],
+      "next": [
+        {
+          "condition": "state .$ar === \"1\"",
+          "node": "Dominator"
+        },
+        {
+          "condition": "state .$ar == \"2\"",
+          "node": "Talker"
+        },
+        {
+          "condition": "state .$ar == \"3\"",
+          "node": "Prisoner"
+        },
+        {
+          "condition": "state .$ar == \"4\"",
+          "node": "Expert"
+        },
+        {
+          "condition": "state .$ar == \"5\"",
+          "node": "Complainer"
+        },
+        {
+          "condition": "state .$ar == \"6\"",
+          "node": "Dependent"
+        },
+        {
+          "condition": "state .$ar == \"7\"",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "state.$ar !== \"1\" && state.$ar !== \"2\" && state.$ar !== \"3\" && state.$ar !== \"4\" && state.$ar !== \"5\" && state.$ar !== \"6\" && state.$ar !== \"7\"",
+          "node": "incorrect_input"
+        }
+      ]
+    },
+    {
+      "id": "9a664337a3",
+      "name": "Dep_Solution",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Dependent"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-I1k0fz"
       ],
       "onReceive": null
     }

@@ -64,7 +64,8 @@
       "id": "e98c8f0d73",
       "name": "entry",
       "onEnter": [
-        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}"
+        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}",
+        "say #!builtin_text-BGq~f9"
       ],
       "onReceive": null,
       "next": [

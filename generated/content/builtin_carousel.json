@@ -14,5 +14,29 @@
     ],
     "createdBy": "admin",
     "createdOn": "2018-06-27T13:14:21.846Z"
+  },
+  {
+    "id": "builtin_carousel-3HBh_L",
+    "formData": [
+      {
+        "title": "Test card 1",
+        "subtitle": "subtest1",
+        "image": "/media/k1mkayoubo5irse5w8gd-grafbild-RC1.png",
+        "actions": [],
+        "typing": true
+      },
+      {
+        "title": "Test card 2",
+        "subtitle": "subtest2",
+        "typing": true
+      },
+      {
+        "title": "Test card 3",
+        "subtitle": "subtest3",
+        "typing": true
+      }
+    ],
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T08:01:11.359Z"
   }
 ]
