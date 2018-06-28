@@ -1,7 +1,7 @@
 {
   "version": "0.1",
   "catchAll": {},
-  "startNode": "entry",
+  "startNode": "Start",
   "nodes": [
     {
       "id": "47b5824423",
@@ -593,6 +593,20 @@
       ],
       "onEnter": [
         "say #!builtin_text-j3WEx1"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "8be7020a68",
+      "name": "Start",
+      "next": [
+        {
+          "condition": "always",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-j0gqQY"
       ],
       "onReceive": null
     }

@@ -1,16 +1,135 @@
 {
   "version": "0.1",
   "catchAll": {},
-  "startNode": "entry",
+  "startNode": "Entry",
   "nodes": [
     {
       "id": "2a9443f83b",
-      "name": "entry",
+      "name": "Entry",
       "onEnter": [
         "say #!builtin_text-0brMte"
       ],
       "onReceive": null,
-      "next": []
+      "next": [
+        {
+          "condition": "always",
+          "node": "Menu"
+        }
+      ]
+    },
+    {
+      "id": "bf9f4f9470",
+      "name": "Menu",
+      "next": [
+        {
+          "condition": "state.$fac == \"1\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$fac == \"2\"",
+          "node": "Teamsite"
+        },
+        {
+          "condition": "state.$fac == \"3\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$fac == \"4\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$fac !== \"1\" && state.$fac !== \"2\" && state.$fac !== \"3\" && state.$fac !== \"4\" ",
+          "node": "Incorrect_input"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-y0WVI_"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_fac\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_fac\",\"output\":\"$fac\"}"
+      ]
+    },
+    {
+      "id": "daf833c4c7",
+      "name": "Incorrect_input",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Menu"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uV00yz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "6180070b5f",
+      "name": "Teamsite",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Menu"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-8qIplv"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "b9db680ab6",
+      "name": "Toolbox",
+      "next": [
+        {
+          "condition": "state.$tool == \"1\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$tool == \"2\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$tool == \"3\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$tool == \"4\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$tool == \"5\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$tool == \"6\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$tool == \"7\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$tool == \"8\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$tool == \"9\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$tool !== \"1\" && state.$tool !== \"2\" && state.$tool !== \"3\" && state.$tool !== \"4\"  && state.$tool !== \"5\" && state.$tool !== \"6\" && state.$tool !== \"7\" && state.$tool !== \"8\" && state.$tool !== \"9\"",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Aj37rK"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_tool\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_tool\",\"output\":\"$tool\"}"
+      ]
     }
   ]
 }

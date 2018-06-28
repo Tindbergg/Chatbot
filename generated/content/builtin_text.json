@@ -85,7 +85,7 @@
   {
     "id": "builtin_text-hMyyjX",
     "formData": {
-      "text": "You've chosen \"Disruptive people\". What type of person would you like to learn more about?\n(1) Dominator\n(2) Talker\n(3)  Prisoner\n(4) Expert\n(5) Complainer\n(6) Dependent\n(7) Return to main menu\n(Please answer 1-7)",
+      "text": " What type of person would you like to learn more about?\n(1) Dominator\n(2) Talker\n(3)  Prisoner\n(4) Expert\n(5) Complainer\n(6) Dependent\n(7) Return to main menu\n(Please answer 1-7)",
       "typing": true
     },
     "createdBy": "admin",
@@ -355,7 +355,7 @@
   {
     "id": "builtin_text-0brMte",
     "formData": {
-      "text": "facilitation",
+      "text": "You've chosen Facilitation!",
       "typing": true
     },
     "createdBy": "admin",
@@ -378,5 +378,41 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-06-28T11:26:09.022Z"
+  },
+  {
+    "id": "builtin_text-j0gqQY",
+    "formData": {
+      "text": "You've chosen Disruptive People!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T14:10:48.141Z"
+  },
+  {
+    "id": "builtin_text-y0WVI_",
+    "formData": {
+      "text": "What would you like to do?\n(1) Explore the course toolbox\n(2) View the teamsite\n(3) Listen to a podcast about meeting the person requesting a facilitation\n(4)  View the FaQ\n(5) Return to the main menu",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T14:17:06.331Z"
+  },
+  {
+    "id": "builtin_text-8qIplv",
+    "formData": {
+      "text": "Here is a link to the teamsite!\n-LINK PURPOSELY HIDDEN-\nHave fun!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T14:43:59.487Z"
+  },
+  {
+    "id": "builtin_text-Aj37rK",
+    "formData": {
+      "text": "This is the toolbox! What tool would you like to explore?\n(1) Choose a picture (or two...)\n(2) 1-2-3-All\n(3) Rotating Flipcharts",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-06-28T14:47:11.191Z"
   }
 ]
