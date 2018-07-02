@@ -805,7 +805,7 @@
   {
     "id": "builtin_text-pLGn1E",
     "formData": {
-      "text": "At this time these features have not yet been implemented in this concept bot however the goal is to let the participant consistently practice and repeat the contents of the course, for example by the use of questions similar to questions. ",
+      "text": "At this time these features have not yet been implemented in this concept bot however the goal is to let the participant consistently practice and repeat the contents of the course, for example by the use of questions similar to flashcards.",
       "typing": true
     },
     "createdBy": "admin",
@@ -850,8 +850,8 @@
   {
     "id": "builtin_text-BWvWgo",
     "formData": {
-      "text": "If the participant chooses to opt in to this function the bot would at certain intervals ask the participant with a random question, If the participant is correct the bot will wait a longer while before returning again with a new question.",
-      "typing": true
+      "text": "If the participant chooses to opt in to this function the bot would at certain intervals ask the participant a random question, If the participant is correct the bot will wait a longer while before returning again with a new question.",
+      "typing": false
     },
     "createdBy": "admin",
     "createdOn": "2018-07-02T14:24:31.630Z"
