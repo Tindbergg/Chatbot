@@ -639,5 +639,149 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-07-02T11:57:55.244Z"
+  },
+  {
+    "id": "builtin_text-S1psuJ",
+    "formData": {
+      "text": "Raise the energy in the room and learn something new about your colleagues.\n\nOrganize the participants into groups of 8 to 20 people.\n\nFacilitator tells the participants that in the Line Up they will have a chance to learn things about one another they may never think to ask.\n\nFacilitator tells the groups that this is a competition, and that when they are asked to line-up in a particular way the first group to do so wins, so they need to get into the lines as quickly as possible, and clap to show they have finished. \n\nExample: Tell the groups to line up by height (shortest to tallest) and to all clap when they have finished.\n\nLine Up Suggestions: Shoe size; Length of arms reach; Alphabetically by first name; Order of birthdays from Jan to Dec; Age; Length of time in current position; Number of animals you own.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T12:54:41.806Z"
+  },
+  {
+    "id": "builtin_text-H3YDHE",
+    "formData": {
+      "text": "Each member is given enough time to think about the problem and to speak his/her mind. \n\nBy hearing everyone's point and giving it attention in the following up discussion, the group arrives at a joint conclusion which every group member supports.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T12:55:37.624Z"
+  },
+  {
+    "id": "builtin_text-KOXCp9",
+    "formData": {
+      "text": "Divide the team of four into a core team of two people who start discussing the problem at hand. The two other persons work individually to find new solutions. \n\nAfter 10-15 minutes (depending on the complexity of the problem), a the third team member joins the core team by presenting his/her ideas regarding the problem. The core team listens and after the presentation, the three participants discuss the problem among themselves. \n\nThe fourth team member joins. He/she joins in, presents his or her perspective of the problem and the group discusses. Now when all members have joined in, the whole team discusses the problem in order to reach a solution together.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T12:56:06.422Z"
+  },
+  {
+    "id": "builtin_text-EG_R1s",
+    "formData": {
+      "text": "Whole group activity to get everyone to talk to each other and begin to get to know them, or discover something new.\n\n(1) Intent or Purpose\n(2) Usual or expected output\n(3) Possible Problems\n(4) Facilitator Involvement\n(5) Resources and Preparation\n(6) Return to toolbox",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T12:57:50.047Z"
+  },
+  {
+    "id": "builtin_text-xBxq8m",
+    "formData": {
+      "text": "Used at the beginning for a group that do now know each other as a way to exchange names and learn a bit about each other.\n\nCan be used as an energizer with groups that know each other – to discover new things..",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:02:06.364Z"
+  },
+  {
+    "id": "builtin_text-8rtnO4",
+    "formData": {
+      "text": "Learning names, forming a connection between members of a group.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:02:48.212Z"
+  },
+  {
+    "id": "builtin_text-JhrJ49",
+    "formData": {
+      "text": "No one has done the activities on the sheet - check that the sheet contains the right activities for the people in the group.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:04:57.588Z"
+  },
+  {
+    "id": "builtin_text-npQy9z",
+    "formData": {
+      "text": "Minimal: starting up the activity and then making sure that people keep circulating.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:11:13.134Z"
+  },
+  {
+    "id": "builtin_text-FCaYTR",
+    "formData": {
+      "text": "pace to mingle\nActivity sheets (an example is located in the teamsite toolbox) - you can include unusual items, by asking people beforehand to tell you (and not share with the group) something unusual about them selves that they are willing to share.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:12:55.932Z"
+  },
+  {
+    "id": "builtin_text-itbTY6",
+    "formData": {
+      "text": "(1) Intent or Purpose\n(2) Usual or expected output\n(3) Possible Problems\n(4) Facilitator Involvement\n(5) Resources and Preparation\n(6) Return to toolbox",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:17:09.753Z"
+  },
+  {
+    "id": "builtin_text-F3HzXA",
+    "formData": {
+      "text": "Used at the beginning for a group that do now know each other as a way to exchange names and learn a bit about each other.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:22:28.747Z"
+  },
+  {
+    "id": "builtin_text-juME6s",
+    "formData": {
+      "text": "Learning names, forming a connection",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:23:08.910Z"
+  },
+  {
+    "id": "builtin_text-MNkh~y",
+    "formData": {
+      "text": "-Currently Empty-",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:24:11.543Z"
+  },
+  {
+    "id": "builtin_text-m5aAEs",
+    "formData": {
+      "text": "Minimal, mainly starting and making sure that people move on to the next person.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:24:53.308Z"
+  },
+  {
+    "id": "builtin_text-E13kSU",
+    "formData": {
+      "text": "Setting and materials:\n\nTables + printed pictures\n\n\nResources needed:\nFlipcharts\n\n\nPre-work required:\nPrint out the sheets",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:25:36.833Z"
+  },
+  {
+    "id": "builtin_text-SuuKC5",
+    "formData": {
+      "text": "No frequently asked questions found at this time! Sorry!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:29:41.632Z"
   }
 ]
