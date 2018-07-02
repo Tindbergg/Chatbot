@@ -2,7 +2,7 @@
   {
     "id": "builtin_text-pSsHWg",
     "formData": {
-      "text": "Hello, {{state.$r}}! What would you like to do? \n \n(1) Learn about Facilitation\n(2) Learn about Disruptive people\n(3) Forget my name\n(Please answer with 1-3)",
+      "text": "Hello, {{state.$r}}! What would you like to do? \n \n(1) Learn about Facilitation\n(2) Learn about Disruptive people\n(3) Forget my name\n(4) Info about our bot and project\n(Please answer with 1-3)",
       "variations": [],
       "typing": true
     },
@@ -427,7 +427,7 @@
   {
     "id": "builtin_text-PxaJta",
     "formData": {
-      "text": "Here is a link to the podcast. Enjoy!\n \nhttps://teamsite.tetrapak.com/sites/006306/Tool%20Box/Online%20toolbox/index.html#/lessons/WBPBzvIItu9dexRbmFSuNaH0vV5CkoX9?_k=fwycgi",
+      "text": "Here is a link to the podcast. Enjoy!\n \n-link here-",
       "typing": true
     },
     "createdBy": "admin",
@@ -783,5 +783,104 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-07-02T13:29:41.632Z"
+  },
+  {
+    "id": "builtin_text-K6TAKM",
+    "formData": {
+      "text": "(1) Purpose of this bot pre-course (what you're talking to right now)\n(2) Purpose of this bot post-course\n(3) Other applications for chatbots\n(4) Return to main menu",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:35:41.484Z"
+  },
+  {
+    "id": "builtin_text-snuNMg",
+    "formData": {
+      "text": "If a participant has been introduced to a phrase before a course the participant will have a easier time connecting the contents of the course to the phrase and also be more attentive since the participant will recognise key words.",
+      "typing": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:46:27.759Z"
+  },
+  {
+    "id": "builtin_text-pLGn1E",
+    "formData": {
+      "text": "At this time these features have not yet been implemented in this concept bot however the goal is to let the participant consistently practice and repeat the contents of the course, for example by the use of questions similar to questions. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T13:56:24.643Z"
+  },
+  {
+    "id": "builtin_text-CtbNA_",
+    "formData": {
+      "text": "Throughout our progress on this bot we have discovered  and learned about many applications for a chatbot.\n\nSome uses for a chatbot that we believe are very useful are:\n\n1. To record feedback: A bot can easily reach out to a person once the person have completed a task, if the completion of the task is able to be recorded as a trigger the bot could reach out to the person and effectively ask questions and record answers to later be compiled to another person responsible for the task.\n\n2. If questions are often asked to someone such as a support representative, a chatbot could record frequent questions and answers and provide the person asking the questions with a set of possible answers before a representative would be required. If the bots answers are not sufficent it could then alert a representative.\nA obstacle with this feature is that the bot would most likely need Natural Language Understanding (NLU), NLU is featured quite well in some tools such as the tool Dialogflow, however to be applicable to most situations it would require a large amount of work.\n\n3. A chatbot could be used to schedule meetings and appointments. A chatbot would be able to provide the user with guiding questions as to where the appointment would best be located, get statistics on what conference rooms are available and if the features would fit the request. The bot could then contact the other participants and inform them of the meeting and the required information.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:10:09.872Z"
+  },
+  {
+    "id": "builtin_text-aadC_j",
+    "formData": {
+      "text": "Hello {{state.r}}, We are Gustav, Oscar, Erik and Josefin. This is our chatbot Facilitation Friend who is here to help you prepare for your upcoming course in Facilitation.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:14:23.135Z"
+  },
+  {
+    "id": "builtin_text-efwQES",
+    "formData": {
+      "text": "The purpose for this bot pre-course is to introduce certain words and phrases that will return during the course. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:15:47.901Z"
+  },
+  {
+    "id": "builtin_text-6c1v1R",
+    "formData": {
+      "text": "If the participant so wishes this bot can also provide further information about the specific topics, as well as extra material such as a podcast or a link to the teamsite for the course.",
+      "typing": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:16:44.999Z"
+  },
+  {
+    "id": "builtin_text-BWvWgo",
+    "formData": {
+      "text": "If the participant chooses to take part in this function the bot would at certain time intervals contact the participant with a randomly chosen question, If the person is able to answer the question with reasonable precision the bot will wait a longer while before returning again with a new question.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:24:31.630Z"
+  },
+  {
+    "id": "builtin_text-OUybD0",
+    "formData": {
+      "text": " If the participants fail to answer the question the bot will return again sooner and give them a new chance. \nAfter a incorrect choice a participant would be provided with either a answer, tip or link to where the participant can repeat the relevant content.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:25:40.877Z"
+  },
+  {
+    "id": "builtin_text-BMVbQ6",
+    "formData": {
+      "text": "Beyond this we would like the bot to record feedback from the participant, have the participant answer questions about the course and then compile the answers to the person responsible for the course.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:26:29.459Z"
+  },
+  {
+    "id": "builtin_text-~XxVQ8",
+    "formData": {
+      "text": "The purpose of this bot post-course is to enhance memory retention and practice memory retreival. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:30:45.412Z"
   }
 ]

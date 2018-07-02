@@ -56,7 +56,7 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_text-goq_NY"
+        "say #!builtin_text-uV00yz"
       ],
       "onReceive": null
     },
@@ -84,7 +84,11 @@
           "node": "Forget_Name"
         },
         {
-          "condition": "state.$flow !== \"1\" && state.$flow !== \"2\" && state.$flow !== \"3\"",
+          "condition": "state.$flow == \"4\"",
+          "node": "Info_entry"
+        },
+        {
+          "condition": "state.$flow !== \"1\" && state.$flow !== \"2\" && state.$flow !== \"3\" state.$flow !== \"4\"",
           "node": "incorrect_input"
         }
       ]
@@ -104,6 +108,193 @@
       "onReceive": [
         "resetUserVariable {\"name\":\"nickname\"}"
       ]
+    },
+    {
+      "id": "6c08f8197a",
+      "name": "Bot_Info",
+      "next": [
+        {
+          "condition": "state.$Purp == \"1\"",
+          "node": "Pre_1"
+        },
+        {
+          "condition": "state.$Purp == \"2\"",
+          "node": "Post_0.5"
+        },
+        {
+          "condition": "state.$Purp == \"3\"",
+          "node": "Other_Applications"
+        },
+        {
+          "condition": "state.$Purp == \"4\"",
+          "node": "welcome"
+        },
+        {
+          "condition": "state.$Purp !== \"1\" && state.$Purp !== \"2\" && state.$Purp !== \"3\" && state.$Purp !== \"4\"",
+          "node": "incorrect_input_info"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-K6TAKM"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_Purp\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_Purp\",\"output\":\"$Purp\"}"
+      ]
+    },
+    {
+      "id": "e0112ad278",
+      "name": "Pre-Course",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Pre_3"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-snuNMg"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "ad26cad28a",
+      "name": "Post-Course",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Post_2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-pLGn1E"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "1c4465eb23",
+      "name": "incorrect_input_info",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Bot_Info"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uV00yz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "403eb4656d",
+      "name": "Other_Applications",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Bot_Info"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-CtbNA_"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "1670f0204b",
+      "name": "Info_entry",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Bot_Info"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-aadC_j"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "ddc4d743e0",
+      "name": "Pre_1",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Pre-Course"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-efwQES"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "c204030bd9",
+      "name": "Pre_3",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Bot_Info"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-6c1v1R"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "435ea9a9d5",
+      "name": "Post_2",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Post_3"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-BWvWgo"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4eddf67d39",
+      "name": "Post_3",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Post_4"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-OUybD0"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "c360aa17e4",
+      "name": "Post_4",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Bot_Info"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-BMVbQ6"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "8d7e536b0e",
+      "name": "Post_0.5",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Post-Course"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-~XxVQ8"
+      ],
+      "onReceive": null
     }
   ]
 }
