@@ -18,39 +18,6 @@
       ]
     },
     {
-      "id": "bf9f4f9470",
-      "name": "Menu",
-      "next": [
-        {
-          "condition": "state.$fac == \"1\"",
-          "node": ""
-        },
-        {
-          "condition": "state.$fac == \"2\"",
-          "node": "Teamsite"
-        },
-        {
-          "condition": "state.$fac == \"3\"",
-          "node": ""
-        },
-        {
-          "condition": "state.$fac == \"4\"",
-          "node": ""
-        },
-        {
-          "condition": "state.$fac !== \"1\" && state.$fac !== \"2\" && state.$fac !== \"3\" && state.$fac !== \"4\" ",
-          "node": "Incorrect_input"
-        }
-      ],
-      "onEnter": [
-        "say #!builtin_text-y0WVI_"
-      ],
-      "onReceive": [
-        "setUserVariable {\"name\":\"a_fac\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
-        "getUserVariable {\"name\":\"a_fac\",\"output\":\"$fac\"}"
-      ]
-    },
-    {
       "id": "daf833c4c7",
       "name": "Incorrect_input",
       "next": [
@@ -60,7 +27,7 @@
         }
       ],
       "onEnter": [
-        "say #!builtin_text-uV00yz"
+        "say #!builtin_text-U6fM1I"
       ],
       "onReceive": null
     },
@@ -84,7 +51,7 @@
       "next": [
         {
           "condition": "state.$tool == \"1\"",
-          "node": ""
+          "node": "Choose_a_pic"
         },
         {
           "condition": "state.$tool == \"2\"",
@@ -130,6 +97,107 @@
         "setUserVariable {\"name\":\"a_tool\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
         "getUserVariable {\"name\":\"a_tool\",\"output\":\"$tool\"}"
       ]
+    },
+    {
+      "id": "bf9f4f9470",
+      "name": "Menu",
+      "next": [
+        {
+          "condition": "state.$fac == \"1\"",
+          "node": "Toolbox"
+        },
+        {
+          "condition": "state.$fac == \"2\"",
+          "node": "Teamsite"
+        },
+        {
+          "condition": "state.$fac == \"3\"",
+          "node": "Podcast"
+        },
+        {
+          "condition": "state.$fac == \"4\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$fac == \"5\"",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "state.$fac !== \"1\" && state.$fac !== \"2\" && state.$fac !== \"3\" && state.$fac !== \"4\" ",
+          "node": "Incorrect_input"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-y0WVI_"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_fac\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_fac\",\"output\":\"$fac\"}"
+      ]
+    },
+    {
+      "id": "6d2900d83f",
+      "name": "Podcast",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-PxaJta"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "512d7be298",
+      "name": "Choose_a_pic",
+      "next": [
+        {
+          "condition": "state.$Pic == \"1\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$Pic == \"2\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$Pic == \"3\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$Pic == \"4\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$Pic == \"5\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$Pic == \"6\"",
+          "node": ""
+        },
+        {
+          "condition": "state.$Pic !== \"1\" && state.$Pic !== \"2\" && state.$Pic !== \"3\" && state.$Pic !== \"4\" && state.$Pic !== \"5\"\" && state.$Pic !== \"6\"",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XQVGmu"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_Pic\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_Pic\",\"output\":\"$Pic\"}"
+      ]
+    },
+    {
+      "id": "4cde96f5e0",
+      "name": "Intent_Pic",
+      "next": [
+        {
+          "condition": "always",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-LTaj4j"
+      ],
+      "onReceive": null
     }
   ]
 }

@@ -400,7 +400,7 @@
   {
     "id": "builtin_text-8qIplv",
     "formData": {
-      "text": "Here is a link to the teamsite!\n-LINK PURPOSELY HIDDEN-\nHave fun!",
+      "text": "Here is a link to the teamsite!\n-LINK HERE-\nHave fun!",
       "typing": true
     },
     "createdBy": "admin",
@@ -414,5 +414,86 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-06-28T14:47:11.191Z"
+  },
+  {
+    "id": "builtin_text-U6fM1I",
+    "formData": {
+      "text": "Please answer with 1,2,3,4 or 5.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T07:01:37.097Z"
+  },
+  {
+    "id": "builtin_text-PxaJta",
+    "formData": {
+      "text": "Here is a link to the podcast. Enjoy!\n \nhttps://teamsite.tetrapak.com/sites/006306/Tool%20Box/Online%20toolbox/index.html#/lessons/WBPBzvIItu9dexRbmFSuNaH0vV5CkoX9?_k=fwycgi",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T07:10:44.262Z"
+  },
+  {
+    "id": "builtin_text-XQVGmu",
+    "formData": {
+      "text": "(1) intent or Purpose\n(2) Usual or expected outcome\n(3) Possible Problems\n(4) Facilitator involvement\n(5) Resources and Preparation\n(6) Return to Toolbox",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T07:13:06.249Z"
+  },
+  {
+    "id": "builtin_text-LTaj4j",
+    "formData": {
+      "text": "Used for allowing people to share their feelings through finding a picture that represents how they feel. This is often easier for people that just being asked \"Tell me how you feel about...\"  ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T07:14:42.087Z"
+  },
+  {
+    "id": "builtin_text-FJs8nK",
+    "formData": {
+      "text": "Each participant expressing their feelings through a picture. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T07:15:59.081Z"
+  },
+  {
+    "id": "builtin_text-SJM_mN",
+    "formData": {
+      "text": "People cannot find a ‘suitable’ picture – you can have blank paper and pens in reserve so that they can quickly draw their own",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T07:17:03.611Z"
+  },
+  {
+    "id": "builtin_text-mC8ZWx",
+    "formData": {
+      "text": "Note taking and encouragement.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T07:17:39.468Z"
+  },
+  {
+    "id": "builtin_text-2Ay7TF",
+    "formData": {
+      "text": "You need a large space to spread out the pictures - a clean floor is ideal, and a place for people to display their picture - a whiteboard / wall, don't forget magnets or Blu-tack (häftmässa / mounting putty).\n\nA set of around 100  pictures is available on the Facilitator Teamsite - they are divided up into separate PowerPoint files as the size is large. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T07:18:35.359Z"
+  },
+  {
+    "id": "builtin_text-mlH1iW",
+    "formData": {
+      "text": "Please answer with 1, 2, 3, 4, 5 or 6.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T07:26:03.903Z"
   }
 ]
