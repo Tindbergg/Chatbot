@@ -190,7 +190,7 @@
       "next": [
         {
           "condition": "always",
-          "node": "Bot_Info"
+          "node": "App-1"
         }
       ],
       "onEnter": [
@@ -293,6 +293,90 @@
       ],
       "onEnter": [
         "say #!builtin_text-~XxVQ8"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2ccd9ae754",
+      "name": "App-1.2",
+      "next": [
+        {
+          "condition": "always",
+          "node": "App-2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-pJ7g8v"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "43dee1bf9e",
+      "name": "App-1",
+      "next": [
+        {
+          "condition": "always",
+          "node": "App-1.2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-jsG1jz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "863984d570",
+      "name": "App-2.2",
+      "next": [
+        {
+          "condition": "always",
+          "node": "App-3"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-McWyel"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "5df71e980b",
+      "name": "App-3",
+      "next": [
+        {
+          "condition": "always",
+          "node": "App-3.2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-JNFYIe"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d1e6eb8101",
+      "name": "App-3.2",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Bot_Info"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-0apoAH"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "211431bf69",
+      "name": "App-2",
+      "next": [
+        {
+          "condition": "always",
+          "node": "App-2.2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-MiBe~z"
       ],
       "onReceive": null
     }

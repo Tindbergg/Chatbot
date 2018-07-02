@@ -436,7 +436,7 @@
   {
     "id": "builtin_text-XQVGmu",
     "formData": {
-      "text": "Free association to elicit descriptions, for example of feeling / situations / future desired states\n \n(1) intent or Purpose\n(2) Usual or expected outcome\n(3) Possible Problems\n(4) Facilitator involvement\n(5) Resources and Preparation\n(6) Return to Toolbox",
+      "text": "Free association to elicit descriptions, for example of feeling / situations / future desired states\n(1) intent or Purpose\n(2) Usual or expected outcome\n(3) Possible Problems\n(4) Facilitator involvement\n(5) Resources and Preparation\n(6) Return ",
       "typing": true
     },
     "createdBy": "admin",
@@ -814,7 +814,7 @@
   {
     "id": "builtin_text-CtbNA_",
     "formData": {
-      "text": "Throughout our progress on this bot we have discovered  and learned about many applications for a chatbot.\n\nSome uses for a chatbot that we believe are very useful are:\n\n1. To record feedback: A bot can easily reach out to a person once the person have completed a task, if the completion of the task is able to be recorded as a trigger the bot could reach out to the person and effectively ask questions and record answers to later be compiled to another person responsible for the task.\n\n2. If questions are often asked to someone such as a support representative, a chatbot could record frequent questions and answers and provide the person asking the questions with a set of possible answers before a representative would be required. If the bots answers are not sufficent it could then alert a representative.\nA obstacle with this feature is that the bot would most likely need Natural Language Understanding (NLU), NLU is featured quite well in some tools such as the tool Dialogflow, however to be applicable to most situations it would require a large amount of work.\n\n3. A chatbot could be used to schedule meetings and appointments. A chatbot would be able to provide the user with guiding questions as to where the appointment would best be located, get statistics on what conference rooms are available and if the features would fit the request. The bot could then contact the other participants and inform them of the meeting and the required information.",
+      "text": "Throughout our progress on this bot we have discovered  and learned about many applications for a chatbot.\nSome uses for a chatbot that we believe are very useful are:",
       "typing": true
     },
     "createdBy": "admin",
@@ -850,7 +850,7 @@
   {
     "id": "builtin_text-BWvWgo",
     "formData": {
-      "text": "If the participant chooses to take part in this function the bot would at certain time intervals contact the participant with a randomly chosen question, If the person is able to answer the question with reasonable precision the bot will wait a longer while before returning again with a new question.",
+      "text": "If the participant chooses to opt in to this function the bot would at certain intervals ask the participant with a random question, If the participant is correct the bot will wait a longer while before returning again with a new question.",
       "typing": true
     },
     "createdBy": "admin",
@@ -859,7 +859,7 @@
   {
     "id": "builtin_text-OUybD0",
     "formData": {
-      "text": " If the participants fail to answer the question the bot will return again sooner and give them a new chance. \nAfter a incorrect choice a participant would be provided with either a answer, tip or link to where the participant can repeat the relevant content.",
+      "text": " If the participants fail to answer the question the bot will return again sooner and give them a new chance. \nAfter a question the participant would be provided with a answer, tip or link to where the participant can repeat the relevant content.",
       "typing": true
     },
     "createdBy": "admin",
@@ -882,5 +882,59 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-07-02T14:30:45.412Z"
+  },
+  {
+    "id": "builtin_text-jsG1jz",
+    "formData": {
+      "text": "(1) To record feedback: A bot can easily reach out to a person once the person have completed a task.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:46:11.255Z"
+  },
+  {
+    "id": "builtin_text-pJ7g8v",
+    "formData": {
+      "text": " If the completion of the task is able to be recorded as a trigger the bot could reach out to the person and effectively ask questions and record answers to later be compiled to another person responsible for the task.",
+      "typing": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:46:35.902Z"
+  },
+  {
+    "id": "builtin_text-MiBe~z",
+    "formData": {
+      "text": "(2) If questions are often asked to someone a chatbot could record questions and answers and provide the person asking the questions with a set of answers. If the bots answers are not sufficent it could then alert a representative.\n",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:49:41.062Z"
+  },
+  {
+    "id": "builtin_text-McWyel",
+    "formData": {
+      "text": "A obstacle with this feature is that the bot would need Natural Language Understanding (NLU), NLU is featured quite well in some tools such as the tool Dialogflow, however to be applicable to most situations it would require a large amount of work.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:50:18.960Z"
+  },
+  {
+    "id": "builtin_text-JNFYIe",
+    "formData": {
+      "text": "(3) A chatbot could be used to schedule meetings and appointments. A chatbot would be able to provide the user with guiding questions as to where the appointment would best be located and get statistics on what conference rooms are available. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:52:33.215Z"
+  },
+  {
+    "id": "builtin_text-0apoAH",
+    "formData": {
+      "text": "The bot could then contact the other participants and inform them of the meeting and the required information.",
+      "typing": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T14:53:03.527Z"
   }
 ]
