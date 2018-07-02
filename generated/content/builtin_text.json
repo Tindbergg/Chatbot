@@ -436,7 +436,7 @@
   {
     "id": "builtin_text-XQVGmu",
     "formData": {
-      "text": "(1) intent or Purpose\n(2) Usual or expected outcome\n(3) Possible Problems\n(4) Facilitator involvement\n(5) Resources and Preparation\n(6) Return to Toolbox",
+      "text": "Free association to elicit descriptions, for example of feeling / situations / future desired states\n \n(1) intent or Purpose\n(2) Usual or expected outcome\n(3) Possible Problems\n(4) Facilitator involvement\n(5) Resources and Preparation\n(6) Return to Toolbox",
       "typing": true
     },
     "createdBy": "admin",
@@ -495,5 +495,149 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-07-02T07:26:03.903Z"
+  },
+  {
+    "id": "builtin_text-2Myvpd",
+    "formData": {
+      "text": "Each participant expressing their feelings through a picture.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:23:17.524Z"
+  },
+  {
+    "id": "builtin_text-lMTjHQ",
+    "formData": {
+      "text": "Please answer with 1-9.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:24:18.514Z"
+  },
+  {
+    "id": "builtin_text-LmuUG6",
+    "formData": {
+      "text": "(1) Intent or Purpose\n(2) Key Words\n(3) Recommended size of group\n(4) Expected outcome\n(5) return to toolbox",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:30:10.150Z"
+  },
+  {
+    "id": "builtin_text-uEcU91",
+    "formData": {
+      "text": "Following breakout groups, there is typically a report-back process when each team presents its results to the other teams. In this process people generally are not as attentive to what other teams are saying: some people may be still preparing their own report-back.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:39:47.133Z"
+  },
+  {
+    "id": "builtin_text-bbj7za",
+    "formData": {
+      "text": "Feedback, involvement, closing, debriefing",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:40:31.519Z"
+  },
+  {
+    "id": "builtin_text-uh0ynM",
+    "formData": {
+      "text": "As a minimum 3 groups of 2 people, but preferably more.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:41:14.089Z"
+  },
+  {
+    "id": "builtin_text-Sivo9T",
+    "formData": {
+      "text": "A deeper understanding of each groups work",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:41:48.502Z"
+  },
+  {
+    "id": "builtin_text-o0nkKc",
+    "formData": {
+      "text": "1.\tAsk people to silently reflect individually on a shared challenge, framed as a question (e.g., What opportunities do YOU see for making progress on this challenge? How would you handle this situation? What ideas or actions do you recommend?) 1 min\n\n2.\tAsk them to generate ideas in pairs, building on ideas from self-reflection. 2 min.\n\n3.\tFinally, ask them to share and develop ideas from your pair in foursomes (notice similarities and differences). 4 min.\n\n4.\tAsk, “What is one idea that stood out in your conversation?” Each group shares one important idea with all (repeat cycle as needed). 5 min.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:45:53.186Z"
+  },
+  {
+    "id": "builtin_text-zPB1dp",
+    "formData": {
+      "text": "Identifying the Advantages and possible Disadvantages of a decision\n\n(1) Intent or Purpose\n(2) Key Words\n(3) Recommended size of group\n(4) Expected outcome\n(5) Possible Problems\n(6) Resources needed\n(7) Return to toolbox",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:47:57.496Z"
+  },
+  {
+    "id": "builtin_text-fKJS1O",
+    "formData": {
+      "text": "Please answer with 1-7.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:51:44.843Z"
+  },
+  {
+    "id": "builtin_text-a8fez3",
+    "formData": {
+      "text": "Allow the group to discuss and identify the advantages and possible disadvantages of a decision, and how increase the chance of the advantages and decrease the disadvantages",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:53:18.667Z"
+  },
+  {
+    "id": "builtin_text-z6yP0R",
+    "formData": {
+      "text": "Future, advantages, disadvantages, planning, best results, decision consequences",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:54:36.355Z"
+  },
+  {
+    "id": "builtin_text-PdgM4K",
+    "formData": {
+      "text": "None, but will need 1-2-4-group type organisation for large groups",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:55:35.862Z"
+  },
+  {
+    "id": "builtin_text-oqt546",
+    "formData": {
+      "text": "A set of expected advantages and possible disadvantages to a decision, and how to increase the advantages and prevent or minimize the disadvantages",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:56:29.551Z"
+  },
+  {
+    "id": "builtin_text-A~ADNH",
+    "formData": {
+      "text": "Heavy discussion against disadvantages by those who are very much for the decison",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:57:03.028Z"
+  },
+  {
+    "id": "builtin_text-YKuPTa",
+    "formData": {
+      "text": "Flip chart paper, pen and a place to display the Advantages and Diasdvantages and how to increase the advantages and prevent or minimise the disadvantages. You can also use the pictures from \"Choose a picture (or two)\" activity to help.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-02T11:57:55.244Z"
   }
 ]

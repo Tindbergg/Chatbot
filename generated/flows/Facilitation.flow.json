@@ -55,15 +55,15 @@
         },
         {
           "condition": "state.$tool == \"2\"",
-          "node": ""
+          "node": "1-2-3-All"
         },
         {
           "condition": "state.$tool == \"3\"",
-          "node": ""
+          "node": "Rotatin_Flipchats"
         },
         {
           "condition": "state.$tool == \"4\"",
-          "node": ""
+          "node": "Future_State"
         },
         {
           "condition": "state.$tool == \"5\"",
@@ -87,7 +87,7 @@
         },
         {
           "condition": "state.$tool !== \"1\" && state.$tool !== \"2\" && state.$tool !== \"3\" && state.$tool !== \"4\"  && state.$tool !== \"5\" && state.$tool !== \"6\" && state.$tool !== \"7\" && state.$tool !== \"8\" && state.$tool !== \"9\"",
-          "node": ""
+          "node": "Incorrect_input_TB"
         }
       ],
       "onEnter": [
@@ -150,31 +150,31 @@
       "next": [
         {
           "condition": "state.$Pic == \"1\"",
-          "node": ""
+          "node": "Intent_Pic"
         },
         {
           "condition": "state.$Pic == \"2\"",
-          "node": ""
+          "node": "Output_Pic"
         },
         {
           "condition": "state.$Pic == \"3\"",
-          "node": ""
+          "node": "Problems_Pic"
         },
         {
           "condition": "state.$Pic == \"4\"",
-          "node": ""
+          "node": "Involvement_Pic"
         },
         {
           "condition": "state.$Pic == \"5\"",
-          "node": ""
+          "node": "Prep_Pic"
         },
         {
           "condition": "state.$Pic == \"6\"",
-          "node": ""
+          "node": "Toolbox"
         },
         {
           "condition": "state.$Pic !== \"1\" && state.$Pic !== \"2\" && state.$Pic !== \"3\" && state.$Pic !== \"4\" && state.$Pic !== \"5\"\" && state.$Pic !== \"6\"",
-          "node": ""
+          "node": "Incorrect_input_Pic"
         }
       ],
       "onEnter": [
@@ -191,11 +191,359 @@
       "next": [
         {
           "condition": "always",
-          "node": ""
+          "node": "Choose_a_pic"
         }
       ],
       "onEnter": [
         "say #!builtin_text-LTaj4j"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d686e1cf3c",
+      "name": "Output_Pic",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Choose_a_pic"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2Myvpd"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "1342dc4bb2",
+      "name": "Incorrect_input_TB",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Toolbox"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-lMTjHQ"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "e3af67400b",
+      "name": "Incorrect_input_Pic",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Choose_a_pic"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mlH1iW"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "642b47bdc5",
+      "name": "Problems_Pic",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Choose_a_pic"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-SJM_mN"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "8bd0fd7879",
+      "name": "Involvement_Pic",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Choose_a_pic"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mC8ZWx"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "f629063eca",
+      "name": "Prep_Pic",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Choose_a_pic"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2Ay7TF"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "501d3ba88b",
+      "name": "Rotatin_Flipchats",
+      "next": [
+        {
+          "condition": "state.$Flip == \"1\"",
+          "node": "Intent_Flip"
+        },
+        {
+          "condition": "state.$Flip == \"2\"",
+          "node": "Keywords_Flip"
+        },
+        {
+          "condition": "state.$Flip == \"3\"",
+          "node": "Size_Flip"
+        },
+        {
+          "condition": "state.$Flip == \"4\"",
+          "node": "Outcome_Flip"
+        },
+        {
+          "condition": "state.$Flip == \"5\"",
+          "node": "Toolbox"
+        },
+        {
+          "condition": "state.$Flip !== \"1\" && state.$Flip !== \"2\" && state.$Flip !== \"3\" && state.$Flip !== \"4\" && state.$Flip !== \"5\"",
+          "node": "Incorrect_input-copy"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-LmuUG6"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_Flip\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_Flip\",\"output\":\"$Flip\"}"
+      ]
+    },
+    {
+      "id": "99b34fd96f",
+      "name": "Intent_Flip",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Rotatin_Flipchats"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uEcU91"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "f4ed51a110",
+      "name": "Keywords_Flip",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Rotatin_Flipchats"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bbj7za"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "018cd7db94",
+      "name": "Size_Flip",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Rotatin_Flipchats"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uh0ynM"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "59bc89808c",
+      "name": "Outcome_Flip",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Rotatin_Flipchats"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Sivo9T"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "f2ca6f8227",
+      "name": "Incorrect_input-copy",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Rotatin_Flipchats"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-U6fM1I"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "24f73019e5",
+      "name": "1-2-3-All",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Toolbox"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-o0nkKc"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "386bdfb830",
+      "name": "Future_State",
+      "next": [
+        {
+          "condition": "state.$State == \"1\"",
+          "node": "Intent_State"
+        },
+        {
+          "condition": "state.$State == \"2\"",
+          "node": "Key-Words_State"
+        },
+        {
+          "condition": "state.$State == \"3\"",
+          "node": "Size_State"
+        },
+        {
+          "condition": "state.$State == \"4\"",
+          "node": "Outcome_State"
+        },
+        {
+          "condition": "state.$State == \"5\"",
+          "node": "Problems_State"
+        },
+        {
+          "condition": "state.$State == \"6\"",
+          "node": "Res_State"
+        },
+        {
+          "condition": "state.$State == \"7\"",
+          "node": "Toolbox"
+        },
+        {
+          "condition": "state.$State !== \"1\" && state.$State !== \"2\" && state.$State !== \"3\" && state.$State !== \"4\" && state.$State !== \"5\" && state.$State !== \"6\" && state.$State !== \"7\"",
+          "node": "Incorrect_input_State"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zPB1dp"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"a_State\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"a_State\",\"output\":\"$State\"}"
+      ]
+    },
+    {
+      "id": "bd0a974f0b",
+      "name": "Incorrect_input_State",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Future_State"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-fKJS1O"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "33ce1b713a",
+      "name": "Intent_State",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Future_State"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-a8fez3"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "f928c9c16d",
+      "name": "Key-Words_State",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Future_State"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-z6yP0R"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4de1135006",
+      "name": "Size_State",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Future_State"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-PdgM4K"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "66fb4eca4a",
+      "name": "Outcome_State",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Future_State"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-oqt546"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2c60b52cb6",
+      "name": "Problems_State",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Future_State"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-A~ADNH"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4b1b1791fc",
+      "name": "Res_State",
+      "next": [
+        {
+          "condition": "always",
+          "node": "Future_State"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-YKuPTa"
       ],
       "onReceive": null
     }
