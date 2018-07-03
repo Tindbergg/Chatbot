@@ -409,8 +409,9 @@
   {
     "id": "builtin_text-Aj37rK",
     "formData": {
-      "text": "This is the toolbox! What tool would you like to explore?\n(1) Choose a picture (or two...)\n(2) 1-2-3-All\n(3) Rotating Flipcharts",
-      "typing": true
+      "text": "This is the toolbox! What tool would you like to explore?\n(1) Choose a picture (or two...)\n(2) 1-2-3-All\n(3) Rotating Flipcharts\n(4) Future State\n(5) Line Up\n(6) Stepladder\n(7) Find someone who...\n(8) Buzzgroups\n(9) Return",
+      "variations": [],
+      "typing": false
     },
     "createdBy": "admin",
     "createdOn": "2018-06-28T14:47:11.191Z"
@@ -481,7 +482,7 @@
   {
     "id": "builtin_text-2Ay7TF",
     "formData": {
-      "text": "You need a large space to spread out the pictures - a clean floor is ideal, and a place for people to display their picture - a whiteboard / wall, don't forget magnets or Blu-tack (häftmässa / mounting putty).\n\nA set of around 100  pictures is available on the Facilitator Teamsite - they are divided up into separate PowerPoint files as the size is large. ",
+      "text": "You need a large space to spread out the pictures - a clean floor is ideal, and a place for people to display their picture - a whiteboard / wall, don't forget magnets or Blu-tack (häftmässa / mounting putty).",
       "typing": true
     },
     "createdBy": "admin",
@@ -526,8 +527,9 @@
   {
     "id": "builtin_text-uEcU91",
     "formData": {
-      "text": "Following breakout groups, there is typically a report-back process when each team presents its results to the other teams. In this process people generally are not as attentive to what other teams are saying: some people may be still preparing their own report-back.",
-      "typing": true
+      "text": "Following breakout groups, there is a report-back process when each team presents its results to the other teams. In this process people are not as attentive to what other teams are saying: some people may be still preparing their own report-back.",
+      "variations": [],
+      "typing": false
     },
     "createdBy": "admin",
     "createdOn": "2018-07-02T11:39:47.133Z"
@@ -562,7 +564,7 @@
   {
     "id": "builtin_text-o0nkKc",
     "formData": {
-      "text": "1.\tAsk people to silently reflect individually on a shared challenge, framed as a question (e.g., What opportunities do YOU see for making progress on this challenge? How would you handle this situation? What ideas or actions do you recommend?) 1 min\n\n2.\tAsk them to generate ideas in pairs, building on ideas from self-reflection. 2 min.\n\n3.\tFinally, ask them to share and develop ideas from your pair in foursomes (notice similarities and differences). 4 min.\n\n4.\tAsk, “What is one idea that stood out in your conversation?” Each group shares one important idea with all (repeat cycle as needed). 5 min.",
+      "text": "(1) Ask people to silently reflect individually on a shared challenge, framed as a question (ex, What opportunities do YOU see for making progress on this challenge? How would you handle this situation? What ideas or actions do you recommend?) 1 min",
       "typing": true
     },
     "createdBy": "admin",
@@ -643,7 +645,7 @@
   {
     "id": "builtin_text-S1psuJ",
     "formData": {
-      "text": "Raise the energy in the room and learn something new about your colleagues.\n\nOrganize the participants into groups of 8 to 20 people.\n\nFacilitator tells the participants that in the Line Up they will have a chance to learn things about one another they may never think to ask.\n\nFacilitator tells the groups that this is a competition, and that when they are asked to line-up in a particular way the first group to do so wins, so they need to get into the lines as quickly as possible, and clap to show they have finished. \n\nExample: Tell the groups to line up by height (shortest to tallest) and to all clap when they have finished.\n\nLine Up Suggestions: Shoe size; Length of arms reach; Alphabetically by first name; Order of birthdays from Jan to Dec; Age; Length of time in current position; Number of animals you own.",
+      "text": "Raise the energy in the room and learn something new about your colleagues.\n\nOrganize the participants into groups of 8 to 20 people.",
       "typing": true
     },
     "createdBy": "admin",
@@ -661,7 +663,7 @@
   {
     "id": "builtin_text-KOXCp9",
     "formData": {
-      "text": "Divide the team of four into a core team of two people who start discussing the problem at hand. The two other persons work individually to find new solutions. \n\nAfter 10-15 minutes (depending on the complexity of the problem), a the third team member joins the core team by presenting his/her ideas regarding the problem. The core team listens and after the presentation, the three participants discuss the problem among themselves. \n\nThe fourth team member joins. He/she joins in, presents his or her perspective of the problem and the group discusses. Now when all members have joined in, the whole team discusses the problem in order to reach a solution together.",
+      "text": "Divide the team of four into a core team of two people who start discussing the problem at hand. The two other persons work individually to find new solutions. \n",
       "typing": true
     },
     "createdBy": "admin",
@@ -670,8 +672,9 @@
   {
     "id": "builtin_text-EG_R1s",
     "formData": {
-      "text": "Whole group activity to get everyone to talk to each other and begin to get to know them, or discover something new.\n\n(1) Intent or Purpose\n(2) Usual or expected output\n(3) Possible Problems\n(4) Facilitator Involvement\n(5) Resources and Preparation\n(6) Return to toolbox",
-      "typing": true
+      "text": "(1) Intent or Purpose\n(2) Usual or expected output\n(3) Possible Problems\n(4) Facilitator Involvement\n(5) Resources and Preparation\n(6) Return to toolbox",
+      "variations": [],
+      "typing": false
     },
     "createdBy": "admin",
     "createdOn": "2018-07-02T12:57:50.047Z"
@@ -679,7 +682,7 @@
   {
     "id": "builtin_text-xBxq8m",
     "formData": {
-      "text": "Used at the beginning for a group that do now know each other as a way to exchange names and learn a bit about each other.\n\nCan be used as an energizer with groups that know each other – to discover new things..",
+      "text": "Used at the beginning for a group that do now know each other as a way to exchange names and learn a bit about each other.\n\nCan be used as an energizer with groups that know each other – to discover new things.",
       "typing": true
     },
     "createdBy": "admin",
@@ -715,7 +718,7 @@
   {
     "id": "builtin_text-FCaYTR",
     "formData": {
-      "text": "pace to mingle\nActivity sheets (an example is located in the teamsite toolbox) - you can include unusual items, by asking people beforehand to tell you (and not share with the group) something unusual about them selves that they are willing to share.",
+      "text": "Activity sheets (an example is located in the teamsite toolbox) - you can include unusual items, by asking people beforehand to tell you (and not share with the group) something unusual about them selves that they are willing to share.",
       "typing": true
     },
     "createdBy": "admin",
@@ -936,5 +939,92 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-07-02T14:53:03.527Z"
+  },
+  {
+    "id": "builtin_text-jvE10m",
+    "formData": {
+      "text": "A set of around 100  pictures is available on the Facilitator Teamsite - they are divided up into separate PowerPoint files as the size is large. ",
+      "typing": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-03T06:17:03.608Z"
+  },
+  {
+    "id": "builtin_text-EvGj7x",
+    "formData": {
+      "text": "Facilitator tells the participants that in the Line Up they will have a chance to learn things about one another they may never think to ask.",
+      "variations": [],
+      "typing": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-03T06:32:36.909Z"
+  },
+  {
+    "id": "builtin_text-t9oJhP",
+    "formData": {
+      "text": "Facilitator tells the groups that this is a competition, and that when they are asked to line-up in a particular way the first group to do so wins, so they need to get into the lines as quickly as possible, and clap to show they have finished. ",
+      "variations": [],
+      "typing": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-03T06:33:53.522Z"
+  },
+  {
+    "id": "builtin_text-IiJtKF",
+    "formData": {
+      "text": "Example: Tell the groups to line up by height (shortest to tallest) and to all clap when they have finished.\n\nLine Up Suggestions: Shoe size; Length of arms reach; Alphabetically by first name; Length of time in current position",
+      "variations": [],
+      "typing": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-03T06:35:58.586Z"
+  },
+  {
+    "id": "builtin_text-GSGjL5",
+    "formData": {
+      "text": "After 10-15 minutes (depending on the complexity of the problem), a third team member joins the core team by presenting his/her ideas regarding the problem. The core team listens and after the presentation, they discuss the problem among themselves. ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-03T07:31:18.300Z"
+  },
+  {
+    "id": "builtin_text-tbJ0Wy",
+    "formData": {
+      "text": "The fourth team member joins. He/she joins in, presents his or her perspective of the problem and the group discusses. Now when all members have joined in, the whole team discusses the problem in order to reach a solution together.",
+      "variations": [],
+      "typing": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-03T07:31:43.488Z"
+  },
+  {
+    "id": "builtin_text-DaeWC6",
+    "formData": {
+      "text": "Whole group activity to get everyone to talk to each other and begin to get to know them, or discover something new.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-03T07:36:15.778Z"
+  },
+  {
+    "id": "builtin_text-q~Evl8",
+    "formData": {
+      "text": "(2)\tAsk them to generate ideas in pairs, building on ideas from self-reflection. 2 min.\n\n(3)\tFinally, ask them to share and develop ideas from your pair in foursomes (notice similarities and differences). 4 min.",
+      "variations": [],
+      "typing": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-03T07:40:28.187Z"
+  },
+  {
+    "id": "builtin_text-OS43gI",
+    "formData": {
+      "text": "(4)\tAsk, “What is one idea that stood out in your conversation?” Each group shares one important idea with all (repeat cycle as needed). 5 min.",
+      "variations": [],
+      "typing": false
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-03T07:40:53.104Z"
   }
 ]
