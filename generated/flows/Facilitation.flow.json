@@ -138,7 +138,12 @@
     {
       "id": "6d2900d83f",
       "name": "Podcast",
-      "next": [],
+      "next": [
+        {
+          "condition": "always",
+          "node": "Menu"
+        }
+      ],
       "onEnter": [
         "say #!builtin_text-PxaJta"
       ],
@@ -173,7 +178,7 @@
           "node": "Toolbox"
         },
         {
-          "condition": "state.$Pic !== \"1\" && state.$Pic !== \"2\" && state.$Pic !== \"3\" && state.$Pic !== \"4\" && state.$Pic !== \"5\"\" && state.$Pic !== \"6\"",
+          "condition": "state.$Pic !== \"1\" && state.$Pic !== \"2\" && state.$Pic !== \"3\" && state.$Pic !== \"4\" && state.$Pic !== \"5\" && state.$Pic !== \"6\"",
           "node": "Incorrect_input_Pic"
         }
       ],

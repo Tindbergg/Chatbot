@@ -88,7 +88,7 @@
           "node": "Info_entry"
         },
         {
-          "condition": "state.$flow !== \"1\" && state.$flow !== \"2\" && state.$flow !== \"3\" state.$flow !== \"4\"",
+          "condition": "state.$flow !== \"1\" && state.$flow !== \"2\"  && state.$flow !== \"3\" && state.$flow !== \"4\"",
           "node": "incorrect_input"
         }
       ]
